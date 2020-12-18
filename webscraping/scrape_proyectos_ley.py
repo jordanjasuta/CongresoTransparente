@@ -34,6 +34,18 @@ class ScrapeProyectos:
         pl_fec_pres = list()
         pl_estado = list()
         pl_titulo = list()
+        pl_enlace = list()
+
+        pl_fs_leg = list()
+        # pl_fs_fec_pres = list()
+        pl_fs_num = list()
+        pl_fs_prop = list()
+        pl_fs_grupo = list()
+        pl_fs_sum = list()
+        pl_fs_autores = list()
+        pl_fs_seg = list()
+
+        ficha_seguimiento = list()
 
         url = url
         response = requests.get(url)
@@ -48,10 +60,54 @@ class ScrapeProyectos:
             pl_estado.append(tds[3].text)
             pl_titulo.append(tds[4].text)
 
+            if tds[0].a is not None:
+                url = 'http://www2.congreso.gob.pe/' + tds[0].a['href']
+                # pull new table information
+                response = requests.get(url)
+                soup = BeautifulSoup(response.text, 'html.parser')
+                for tr in soup.find_all('tr')[2:]:
+                    tds = tr.find_all('td')
+                    if tds[0].text == 'Legislatura:':
+                        pl_fs_leg.append(tds[1].text)
+                    # elif tds[0].text == 'Fecha Presentación:':
+                    #     pl_fs_fec_pres.append(tds[1].text)
+                    # elif tds[0].text == 'Número:':
+                    #     pl_fs_num.append(tds[1].text)
+                    elif tds[0].text == 'Proponente:':
+                        pl_fs_prop.append(tds[1].text)
+                    elif tds[0].text == 'Grupo Parlamentario:':
+                        pl_fs_grupo.append(tds[1].text)
+                    elif tds[0].text == 'Sumilla:':
+                        pl_fs_sum.append(tds[1].text)
+                    elif tds[0].text == 'Autores (*):':
+                        pl_fs_autores.append(tds[1].text)
+
+                        # TO DO: parse this out !!!
+
+                    elif tds[0].text == 'Seguimiento:':
+                        pl_fs_seg.append(tds[1].text)
+
+            else:
+                pl_fs_leg.append('')
+                pl_fs_num.append('')
+                pl_fs_prop.append('')
+                pl_fs_grupo.append('')
+                pl_fs_sum.append('')
+                pl_fs_autores.append('')
+                pl_fs_seg.append('')
+
         d = {'Numero':pl_num,'Fecha_ult':pl_fec_ult,'Fecha_pres':pl_fec_pres,
-             'Estado':pl_estado,'Titulo_de_proyecto':pl_titulo}
+             'Estado':pl_estado,'Titulo_de_proyecto':pl_titulo,'Proponente':pl_fs_prop,
+             'Grupo_parlamentario':pl_fs_grupo,'Sumilla':pl_fs_sum,
+             'Autores':pl_fs_autores,'Seguimiento':pl_fs_seg}
 
         pl_tabla = pd.DataFrame(d)
+
+        # for href in soup.find_all('tr')[2:]:
+
+
+
+
         # print(pl_tabla.head())
 
         # TO DO: scrape details and join w overview table
