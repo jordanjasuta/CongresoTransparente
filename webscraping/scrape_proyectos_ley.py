@@ -45,12 +45,10 @@ class ScrapeProyectos:
         pl_fs_autores = list()
         pl_fs_seg = list()
 
-        ficha_seguimiento = list()
-
         url = url
         response = requests.get(url)
         soup = BeautifulSoup(response.text, 'html.parser')
-        # table = soup.findAll('tr')
+
         for tr in soup.find_all('tr')[2:]:
             tds = tr.find_all('td')
             # print(tds[0].text)
@@ -102,12 +100,6 @@ class ScrapeProyectos:
              'Autores':pl_fs_autores,'Seguimiento':pl_fs_seg}
 
         pl_tabla = pd.DataFrame(d)
-
-        # for href in soup.find_all('tr')[2:]:
-
-
-
-
         # print(pl_tabla.head())
 
         # TO DO: scrape details and join w overview table
@@ -115,16 +107,52 @@ class ScrapeProyectos:
         return(pl_tabla)
 
 
+    def votaciones_tabla(self, url):
+
+        url = url
+        response = requests.get(url)
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        for tr in soup.find_all('tr')[2:]:
+            tds = tr.find_all('td')
+            if len(tds)>4:
+                print(tds[3].text)
+                print(tds[4].text)
+                if tds[4].a is not None:
+                    url = 'http://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/' + tds[4].a['href'].split("javascript:openWindow('")[1]
+                    url = url.split("')")[0]
+                    print(url)
+
+                    r = requests.get(url) # create HTTP response object
+
+                    # send a HTTP request to the server and save
+                    # the HTTP response in a response object called r
+                    with open(('raw_pdfs/' + tds[4].text + '.pdf'),'wb') as f:
+
+                        # write the contents of the response (r.content)
+                        # to a new file in binary mode.
+                        f.write(r.content)
+
+
+
+
+
+
 
 if __name__ == '__main__':
     SP = ScrapeProyectos()
-    # url = 'http://www.congreso.gob.pe/pley-2016-2021'
-    url = 'http://www2.congreso.gob.pe/Sicr/TraDocEstProc/CLProLey2016.nsf/Local%20Por%20Numero%20Inverso?OpenView'
-    # url = 'http://www2.congreso.gob.pe/Sicr/TraDocEstProc/CLProLey2016.nsf/641842f7e5d631bd052578e20058a231/07eb2c31fea4f55005258642006407a7?OpenDocument'
 
-    result = SP.proyectos_de_ley_tabla(url)
-    result.to_csv('csvs/proyectos_de_ley.csv', encoding="utf-8-sig", index=False)
-    # print(result)
+    # ## PROYECTOS DE LEY
+    # # url = 'http://www.congreso.gob.pe/pley-2016-2021'
+    # url = 'http://www2.congreso.gob.pe/Sicr/TraDocEstProc/CLProLey2016.nsf/Local%20Por%20Numero%20Inverso?OpenView'
+    #
+    # result = SP.proyectos_de_ley_tabla(url)
+    # result.to_csv('csvs/proyectos_de_ley.csv', encoding="utf-8-sig", index=False)
+
+    ## ASISTENCIAS Y VOTACIONES A LAS SESIONES DEL PLENO
+    url = 'http://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/new_asistenciavotacion?OpenForm&Start=1&Count=15&Expand=1.1.1&Seq=3'
+    # url = 'http://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/new_asistenciavotacion?OpenForm&Start=1&Count=15&Collapse=1&Seq=4'
+    result = SP.votaciones_tabla(url)
 
 
 
