@@ -13,6 +13,7 @@ import urllib.request
 import time
 import pandas as pd
 from bs4 import BeautifulSoup
+import os
 
 # url = 'http://www.congreso.gob.pe/pley-2016-2021'
 url = 'http://www2.congreso.gob.pe/Sicr/TraDocEstProc/CLProLey2016.nsf/Local%20Por%20Numero%20Inverso?OpenView'
@@ -51,7 +52,7 @@ class ScrapeProyectos:
 
         for tr in soup.find_all('tr')[2:]:
             tds = tr.find_all('td')
-            # print(tds[0].text)
+            # print(tds)
             pl_num.append(tds[0].text)
             pl_fec_ult.append(tds[1].text)
             pl_fec_pres.append(tds[2].text)
@@ -60,11 +61,43 @@ class ScrapeProyectos:
 
             if tds[0].a is not None:
                 url = 'http://www2.congreso.gob.pe/' + tds[0].a['href']
-                # pull new table information
+                # open detail table (ficha de seguimiento) and pull new information
                 response = requests.get(url)
                 soup = BeautifulSoup(response.text, 'html.parser')
-                for tr in soup.find_all('tr')[2:]:
+                # print(soup)
+
+                for tr in soup.find_all('tr'):
+                    # print(tr)
+                    for a in tr.find_all('a'):
+                        if a['href'].startswith('http'):
+                            # print(a['href'])
+                            # extract url and download pdf
+                            url = a['href']
+
+                            # open page to get raw pdfs of the proyectos de ley
+                            response = requests.get(url)
+                            soup = BeautifulSoup(response.text, 'html.parser')
+                            for tr in soup.find_all('tr')[2:]:
+                                for a in tr.find_all('a'):
+                                    if len(a) > 1:
+                                        print(a['href'])
+                                        url = a['href']
+                                        name = a['href'].split('/')[-1]
+                                        # print(name)
+                                        r = requests.get(url)
+                                        if os.path.exists('raw_pdfs/proyectos_de_ley/' + name):
+                                            print('file', name, 'already exists')
+                                        else:
+                                            with open(('raw_pdfs/proyectos_de_ley/' + name),'wb') as f:
+                                            # with open('test.pdf', 'wb') as f:
+                                                f.write(r.content)
+                                                print('wrote file', name)
+
+                    # LOOP IS OFF! ONLY PULLS SOME PDFS
+                                                # TO DO: validar a mano que esta sea la lista completa de proyectos de ley
+
                     tds = tr.find_all('td')
+                    # print(tds)
                     if tds[0].text == 'Legislatura:':
                         pl_fs_leg.append(tds[1].text)
                     # elif tds[0].text == 'Fecha Presentación:':
@@ -80,7 +113,7 @@ class ScrapeProyectos:
                     elif tds[0].text == 'Autores (*):':
                         pl_fs_autores.append(tds[1].text)
 
-                        # TO DO: parse this out !!!
+                        # TO DO: parse out authors !!!
 
                     elif tds[0].text == 'Seguimiento:':
                         pl_fs_seg.append(tds[1].text)
@@ -102,7 +135,7 @@ class ScrapeProyectos:
         pl_tabla = pd.DataFrame(d)
         # print(pl_tabla.head())
 
-        # TO DO: scrape details and join w overview table
+        # TO DO: pull PDFs a la vez
 
         return(pl_tabla)
 
@@ -133,6 +166,8 @@ class ScrapeProyectos:
                         # to a new file in binary mode.
                         f.write(r.content)
 
+                        # TO DO: loop through all sessions in one go
+
 
 
 
@@ -142,17 +177,17 @@ class ScrapeProyectos:
 if __name__ == '__main__':
     SP = ScrapeProyectos()
 
-    # ## PROYECTOS DE LEY
-    # # url = 'http://www.congreso.gob.pe/pley-2016-2021'
-    # url = 'http://www2.congreso.gob.pe/Sicr/TraDocEstProc/CLProLey2016.nsf/Local%20Por%20Numero%20Inverso?OpenView'
-    #
-    # result = SP.proyectos_de_ley_tabla(url)
+    ## PROYECTOS DE LEY
+    # url = 'http://www.congreso.gob.pe/pley-2016-2021'
+    url = 'http://www2.congreso.gob.pe/Sicr/TraDocEstProc/CLProLey2016.nsf/Local%20Por%20Numero%20Inverso?OpenView'
+
+    result = SP.proyectos_de_ley_tabla(url)
     # result.to_csv('csvs/proyectos_de_ley.csv', encoding="utf-8-sig", index=False)
 
-    ## ASISTENCIAS Y VOTACIONES A LAS SESIONES DEL PLENO
-    url = 'http://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/new_asistenciavotacion?OpenForm&Start=1&Count=15&Expand=1.1.1&Seq=3'
-    # url = 'http://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/new_asistenciavotacion?OpenForm&Start=1&Count=15&Collapse=1&Seq=4'
-    result = SP.votaciones_tabla(url)
+    # ## ASISTENCIAS Y VOTACIONES A LAS SESIONES DEL PLENO
+    # url = 'http://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/new_asistenciavotacion?OpenForm&Start=1&Count=15&Expand=1.1.1&Seq=3'
+    # # url = 'http://www2.congreso.gob.pe/Sicr/RelatAgenda/PlenoComiPerm20112016.nsf/new_asistenciavotacion?OpenForm&Start=1&Count=15&Collapse=1&Seq=4'
+    # result = SP.votaciones_tabla(url)
 
 
 
