@@ -1,6 +1,6 @@
 # CongresoTransparente
 
-Framework técnico para acceder, procesar, analisar, y visualizar datos sobre la actividad del congreso peruano.
+Framework técnico para acceder, procesar, analizar, y visualizar datos sobre la actividad del congreso peruano.
 
 ![diseño web](/imgs/ct_web.png)
 
