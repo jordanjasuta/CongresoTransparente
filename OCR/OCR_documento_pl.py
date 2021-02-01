@@ -10,6 +10,7 @@ from PIL import Image
 import pytesseract
 from pdf2image import convert_from_path
 import glob, os
+import pandas as pd
 
 
 class OcrDocumentos:
@@ -91,9 +92,43 @@ class OcrDocumentos:
                     f.write(doc_text)
 
 
+    def concat_texto(self, rootdir='text_docs', outdir='.', outfile='/PL_sesion_12.2020.csv'):
+
+        for root, dirs, files in os.walk('text_docs'):
+            contents = str()
+            data = list()
+
+            df = pd.DataFrame(columns=['numero_fecha_PL', 'texto'])
+
+            for file in files:     # concat lines replacing \n with space and collapsing all whitespace into single space
+                i = 0
+                if file.endswith(".txt"):
+                    # print (file.split('.')[0])
+                    filepath = root + os.sep + file
+                    with open(filepath) as f:
+                        text = ' '.join(line.strip() for line in f)
+                        text = ' '.join(text.split())
+                        # print(text)
+                    df = df.append(dict({'numero_fecha_PL': file.split('.')[0], 'texto': text}, index=[0]), ignore_index=True)
+
+        print(df.head())
+
+        df.to_csv(outdir+outfile, index=False)
+        print('saved to', outdir+outfile)
+
+
+
+
 
 
 if __name__ == '__main__':
     OD = OcrDocumentos()
 
-    OD.ocr_all_pdfs('../webscraping/raw_pdfs/proyectos_de_ley/')
+    # OD.ocr_all_pdfs('../webscraping/raw_pdfs/proyectos_de_ley/')
+    OD.concat_texto()
+
+
+
+
+
+    #

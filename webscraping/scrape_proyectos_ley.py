@@ -16,7 +16,8 @@ from bs4 import BeautifulSoup
 import os
 
 # url = 'http://www.congreso.gob.pe/pley-2016-2021'
-url = 'http://www2.congreso.gob.pe/Sicr/TraDocEstProc/CLProLey2016.nsf/Local%20Por%20Numero%20Inverso?OpenView'
+# url = 'http://www2.congreso.gob.pe/Sicr/TraDocEstProc/CLProLey2016.nsf/Local%20Por%20Numero%20Inverso?OpenView&Start=1'
+url = 'http://www2.congreso.gob.pe/Sicr/TraDocEstProc/CLProLey2016.nsf/Local%20Por%20Numero%20Inverso?OpenView&Start=100'  # Start=199, 298, 397, 496...
 response = requests.get(url)
 
 
@@ -27,7 +28,7 @@ class ScrapeProyectos:
     # REQUIRED_FIELDS = []
     # REQUIRED_LISTS = []
     def __init__(self):
-        self.var = ''
+        self.url_base = url
 
     def proyectos_de_ley_tabla(self, url, pdf_download=False):
         pl_num = list()
@@ -47,6 +48,14 @@ class ScrapeProyectos:
         pl_fs_autores = list()
         pl_fs_seg = list()
 
+        start_list = list()
+        for i in range(1,100000,99):
+            start_list.append(i)
+        # start_list = [1, 100, 199, 298, 397, 496, 595, 694, 793, 892]
+
+        # for start in start_list:
+        #     url = self.url_base+'&Start='+page
+        #     print(url)
         url = url
         # TO DO: THIS URL IS SPECIFICALLY THE MOST RECENT CONGRESS - MORE
         # NEEDS TO BE ADDED AT THE BEGINNING OF THIS FUNCTION TO PULL THE
