@@ -7,4 +7,4 @@ Framework técnico para acceder, procesar, analizar, y visualizar datos sobre la
 Fuentes de datos:
 - Proyectos de ley: http://www.congreso.gob.pe/pley-2016-2021
 - Asistencia y votaciones: http://www.congreso.gob.pe/AsistenciasVotacionesPleno/
-- Congresistas y partidos:
+- Congresistas y partidos: https://infogob.jne.gob.pe/BaseDatos
