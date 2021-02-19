@@ -135,7 +135,7 @@ class TableOCR():
         spaces = dict()
         # Get images, cell coordinates, and other important stuff
         img, imgThreshInv, tab_coords, contour_analyzer = self.OTR(PDFCongreso)
-        print(len(tab_coords))
+
         # This array helps know whether cell exists (if congressperson is absent or excused they are merged)
         table_coords_to_node = contour_analyzer.table_coords_to_node
         # Define values to iterate over
@@ -202,7 +202,6 @@ class TableOCR():
 
 if __name__ == '__main__':
 
-    print('')
     # #%%#                         test code
     # # =============================================================================
     # # Test 1
@@ -221,9 +220,7 @@ if __name__ == '__main__':
     # =============================================================================
 
     T = TableOCR()
-    print(os.listdir('.'))
     pdfsCongreso = [f for f in os.listdir('./pdfs') if f.endswith('.pdf')]
-    print(pdfsCongreso)
 
     # fechas = ['02-11-20']
     fechas = []
@@ -231,7 +228,6 @@ if __name__ == '__main__':
         print(file)
         fecha = T.pdfToImage('pdfs/'+file, 'imgs')
         fechas.append(fecha)
-        print('appended: ', fecha)
 
     votos = {}
     for fecha in fechas:
@@ -252,4 +248,4 @@ if __name__ == '__main__':
             print(Counter(votos_ley.values()))
             print('\n\n')
             pagina +=1
-        os.chdir('..')
+        os.chdir('..')    # TO DO: needs updating
