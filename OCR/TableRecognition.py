@@ -182,7 +182,7 @@ class ContourAnalyzer(object):
 
         # Build a (n, (tx,ty)) table coordinate LUT for all nodes
         self.cell_table_coord = np.dstack([hgroup_lut, vgroup_lut])[0]
-
+        
         # Build index of table coordinates to node ID
         self.table_coords_to_node = {}
         for i, (x, y) in enumerate(self.cell_table_coord):
@@ -385,7 +385,7 @@ class ContourAnalyzer(object):
     def extract_cell_from_image(self, img, table_coords, xscale=3, yscale=3, mark_color=(255,0,0), mark_thickness=1):
         """
         Extract a section from the image that corresponds to the table cell.
-
+        
         Parameters
         ----------
         img : array_like 2D
