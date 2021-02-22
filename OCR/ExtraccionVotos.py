@@ -13,8 +13,10 @@ import cv2
 import numpy as np
 import pandas as pd
 import TableRecognition
+# from TableRecognition import _find_contours as findContours
 from pdf2image import convert_from_path
 from collections import Counter
+import pytesseract
 
 
 class TableOCR():
@@ -57,8 +59,11 @@ class TableOCR():
             raise ValueError("File {0} does not exist".format(filename))
         # Process image
         imgGrey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        # imgThresh, img_vh = cv2.threshold(imgGrey, 150, 255, cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)
         imgThresh = cv2.threshold(imgGrey, 150, 255, cv2.THRESH_BINARY_INV)[1]
         imgThreshInv = cv2.threshold(imgGrey, 150, 255, cv2.THRESH_BINARY)[1]
+        # bitxor = cv2.bitwise_xor(img,imgThresh)
+        # bitnot = cv2.bitwise_not(bitxor)
         imgDil = cv2.dilate(imgThresh, np.ones((5, 5), np.uint8))
         contour_analyzer = TableRecognition.ContourAnalyzer(imgDil)
         # 1st pass (black in algorithm diagram)
@@ -91,6 +96,15 @@ class TableOCR():
         print_path = 'fingerprints/'+fecha+'_'+num_ley+'.png'
         cv2.imwrite(print_path, img)
         tab_coords = contour_analyzer.cell_table_coord
+
+        # cells = []
+        # for i in reversed(range(len(tab_coords))):
+        #     img_sect = contour_analyzer.extract_cell_from_image(img, tuple(tab_coords[i]), xscale=1, yscale=1)
+        #     # print(img_sect)
+        #     cells.append(img_sect)
+
+
+        # contour_analyzer.get_contours()
         return img, imgThreshInv, tab_coords[::-1], contour_analyzer
 
     def extractCell(self, img, contour_analyzer, tab_coords, save = False, idx = None, fecha = None):
@@ -99,7 +113,7 @@ class TableOCR():
         where to save
         '''
         # Extract cell from table
-        img_sect = contour_analyzer.extract_cell_from_image(img, tab_coords, xscale=1, yscale=1)
+        img_sect = contour_analyzer.extract_cell_from_image(img, tuple(tab_coords), xscale=1, yscale=1)
         # Save imgs to corroborate everything is workig fine
         if save:
             new_dir = f'TEST/{fecha[0]}/{fecha[1]}'
@@ -126,6 +140,8 @@ class TableOCR():
         # If proportion of white is high enough (> 254), mark as empty
         return True if meanWhite > 254 else False
 
+
+
     def extraerVotos(self, PDFCongreso, debug = False, fecha = None):
         '''
         PDFCongreso : Path to image of congress' votes' table
@@ -133,6 +149,7 @@ class TableOCR():
         '''
         # Initialize dict to save cell coordinates (k) and whether its empty (v)
         spaces = dict()
+
         # Get images, cell coordinates, and other important stuff
         img, imgThreshInv, tab_coords, contour_analyzer = self.OTR(PDFCongreso)
 
@@ -157,15 +174,39 @@ class TableOCR():
                 # Record cell coordinates in key and whether its empty or not as val
                 spaces[(xcoord, ycoord)] = self.cellIsEmpty(img_cell)
 
+
         # Sort coordinates lexicographically by y and then x (doesn't work other way around)
         spacs = sorted(spaces.keys(), key = lambda x: (x[1], x[0]))
         # Hardwire x-coordinate values where Si, No, Abstencion cells always are
         si, no, abst = (3, 10), (4, 11), (5, 12)
+        # Hardwire x-coordinate values where congresista names are (2 columns' xcoord)
+        congresista_coord = (2, 9)
         # Initialize dict to save congresspeople's votes and keep count of them
         votos = dict()
+        congresistas = dict()
         congresista = 0
+        # h =   # height of cell
+        # w =   # width of cell
         #Iterate over coordinates
         for xcoord, ycoord in spacs:
+            if xcoord == congresista_coord[0] or xcoord == congresista_coord[1]:
+                # print(xcoord, ycoord)
+                # print('FOUND A CONGRESISTA! ')
+                # extract image from cell
+                img_cell = self.extractCell(imgThreshInv, contour_analyzer, (xcoord, ycoord),
+                                 idx = idx, save = debug, fecha = fecha)
+
+                # extract text from image
+                kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (2, 1))
+                border = cv2.copyMakeBorder(img_cell,2,2,2,2,   cv2.BORDER_CONSTANT,value=[255,255])
+                resizing = cv2.resize(border, None, fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
+                dilation = cv2.dilate(resizing, kernel,iterations=1)
+                erosion = cv2.erode(dilation, kernel,iterations=1)
+                out = pytesseract.image_to_string(erosion)
+                print(out)
+                congresistas[congresista] = out
+
+
             # If x-coord is on si and cell is not empty -> congressperson voted SI
             if xcoord == si[0] or xcoord == si[1]:
                 if not spaces[(xcoord, ycoord)]:
@@ -196,7 +237,7 @@ class TableOCR():
                     except KeyError:
                         votos[congresista] = 'LICENCIA/AUSENTE'
                         congresista += 1
-        return votos
+        return congresistas, votos
 
 
 
@@ -241,11 +282,22 @@ if __name__ == '__main__':
         # for PDFCongreso in [os.path.abspath(f) for f in os.listdir()]:
         for PDFCongreso in [os.path.abspath(f) for f in os.listdir() if f.endswith('.jpg')]:
             # print(PDFCongreso)
-            votos_ley = T.extraerVotos(PDFCongreso, debug = False, fecha = (fecha, pagina))
+            congresistas, votos_ley = T.extraerVotos(PDFCongreso, debug = False, fecha = (fecha, pagina))
             votos[fecha, pagina] = votos_ley
+            print(congresistas)
+            print(votos)
             print(f'ley: {PDFCongreso[-5:-4]}')
             print('Num congresistas', len(votos_ley))
+            print(votos_ley)
             print(Counter(votos_ley.values()))
             print('\n\n')
+
+            # output table to csv
+            # assert len(votos) == len(congresistas)   #TO DO: address cases where len != len
+            df = pd.DataFrame(list(congresistas.items()),columns = ['index','congresistas'])
+            df['votos'] = df['index'].map(votos_ley)
+            df['congresistas'] = df['congresistas'].apply(lambda x: x.replace('\n', ''))
+            df.to_csv(f'../votos_csv/{fecha}_ley_{PDFCongreso[-5:-4]}.csv', index=False)
+
             pagina +=1
         os.chdir('..')    # TO DO: needs updating
