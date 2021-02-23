@@ -1,131 +1,2621 @@
-index,congresistas,votos
-0,SAGASTI HOCHHAUSLER,LICENCIA/AUSENTE
-1, LIZANA SANTOS,LICENCIA/AUSENTE
-2,VASQUEZ CHUQUILIN,NO VOTO
-3,LIZARRAGA HOUGHTON,NO
-4,ROEL ALVA,NO
-5,[LLAULLI ROMERO |  ,SI
-6,FERNANDEZ FLOREZ ,ABSTENCION
-7,  [LOZANO INOSTROZA |,SI
-8, ACATE CORONEL,NO
-9,LUNA MORALES ,SI
-10,ACUNA PERALTA,LICENCIA/AUSENTE
-11, | MACHACA MAMAN |    ,NO
-12,AGUILAR ZAMORA,SI
-13,    | MAMANI BARRIGA _ | ,SI
-14,ALARCON TEJADA,SI
-15, | MAQUERA CHAVEZ |  ,SI
-16,[ ALENCASTRE MIRANDA |,ABSTENCION
-17,  MELENDEZ CELIS _  ,NO
-18,ALIAGA PAJARES,ABSTENCION
-19,  MENDOZA MARQUINA  ,SI
-20,ALMERI VERAMENDI,SI
-21,  MERINO DE LAMA  ,SI
-22,ALONZO FERNANDEZ,SI
-23,  MERINO LOPEZ  ,NO
-24,ANCALLE GUTIERREZ,NO
-25,  IMESIA RAMIREZ | ,SI
-26,APAZA QUISPE,SI
-27, MONTOYA GUIVIN 7,NO
-28,ARAPA ROQUE,SI
-29,| NOVOA CRUZADO |  ,NO
-30,ASCONA CALDERON,NO
-31,  NUNEZ MARREROS  ,NO
-32,AYASTA DE DIAZ,SI
-33,  |NUREZ SALAS |,NO
-34,AYQUIPA TORRES,NO
-35,[OLIVARES CORTES |  ,NO
-36,BAJONERO OLIVAS,SI
-37,  OMONTE DURAND  ,NO
-38,BARRIONUEVO ROMERO,SI
-39,  |OSEDA YUCRA | ,ABSTENCION
-40,BARTOLO ROMERO,SI
-41, OYOLA RODRIGUEZ ,NO
-42,[BAZAN VILLANUEVA |,NO
-43, PALOMINO SAAVEDRA,NO
-44,| BENAVIDES GAVIDIA |,NO
-45,PANTOJA CALVO,SI
-46,BENITES AGURTO,SI
-47,PAREDES EYZAGUIRRE,NO
-48,BURGA CHUQUIPIONDO,SI
-49,PEREZ ESP{RITU,LICENCIA/AUSENTE
-50,CABRERA VEGA,SI
-51,PEREZ FLORES,ABSTENCION
-52,CAMPOS VILLALOBOS,NO
-53,PEREZ MIMBELA,LICENCIA/AUSENTE
-54,CARCAUSTO HUANCA,NO
-55,PEREZ OCHOA ,NO
-56,|CASTILLO OLIVA |,LICENCIA/AUSENTE
-57, PICHILINGUE GOMEZ ,SI
-58,CAYGUARAY GAMBINI,NO
-59, PINEDA SANTOS ,SI
-60,CAYLLAHUA BARRIENTOS,NO
-61, PINEDO ACHACA ,NO
-62,CESPEDES CARDENAS DE VELASQUEZ,LICENCIA/AUSENTE
-63, PUNO LECARNAQUE,NO
-64,CHAGUA PAYANO,SI
-65,QUISPE APAZA,NO
-66,CHAINA CONTRERAS,SI
-67,QUISPESUAREZ  _ ,NO
-68,CHAVARRIA VILCATOMA,SI
-69, RAMOS ZAPANA,LICENCIA/AUSENTE
-70,CHAVEZ COSSIO,NO
-71,RAYME MARIN,NO
-72,CHECCO CHAUCA,NO
-73,RETAMOZO LEZAMA,NO
-74,CHEHADE MOYA,NO
-75,RIVAS OCEJO,NO
-76,COLUMBUS MURATA,NO
-77,RIVERA GUERRA,SI
-78,COMBINA SALVATIERRA,NO
-79,RODAS MALCA,ABSTENCION
-80,CONDORI FLORES,NO
-81,RUBIO GARIZA,SI
-82,CONTRERAS BAUTISTA,NO
-83,RUIZ PINEDO,NO
-84,COSTA SANTOLALLA,NO
-85,SAAVEDRA OCHARAN,SI
-86,DE BELAUNDE DE CARDENAS,NO
-87,SALINAS LOPEZ 7,NO
-88,DIOSES GUZMAN,ABSTENCION
-89,SANCHEZ LUIS,SI
-90,DURAND BUSTAMANTE,ABSTENCION
-91,SANTILLANA PAREDES ,NO
-92,ESPINOZA ROSALES,NO
-93, SILUPU INGA ,ABSTENCION
-94,ESPINOZA VELARDE,SI
-95, SILVA SANTISTEBAN MANRIQUE,NO
-96,FABIAN DIAZ,SI
-97,SIMEON HURTADO,NO
-98,FERNANDEZ CHACON,ABSTENCION
-99,SOLIS GUTIERREZ |,NO
-100,FLORES VILLEGAS,SI
-101,TITO ORTEGA ,SI
-102,GALLARDO BECERRA,SI
-103, TOCTO GUERRERO ,NO
-104,[GARCIA OVIEDO |,NO
-105, TROYES DELGADO,NO
-106,GARCIA RODRIGUEZ,LICENCIA/AUSENTE
-107,TRUJILLO ZEGARRA,SI
-108,[GONZALES SANTOS |,NO
-109,JURRESTIELERA |  ,SI
-110,GONZALES TUANAMA,SI
-111,  VALDEZ FARIAS  ,LICENCIA/AUSENTE
-112,GONZALEZ CRUZ,NO
-113,  VALER COLLADO _  ,ABSTENCION
-114,GUIBOVICH ARTEAGA,NO
-115,  VASQUEZ BECERRA _  ,NO
-116,GUPIOC RIOS,SI
-117,  | VASQUEZTAN | ,NO
-118,GUTARRA RAMOS,NO
-119, VEGA ANTONIO 7,SI
-120,HIDALGO ZAMALLOA,NO
-121,VERDE HEIDINGER ,NO
-122,HUAMAN CHAMPI,NO
-123, Wee GUTIERREZ |  ,NO
-124,HUAMANI MACHACA,NO
-125,  | VIVANCO REYES |,SI
-126,INGA SALES,NO
-127,| YUPANQUI MINANO |  ,NO
-128,[LAZO VILLON |,NO
-129,  ZARATE ANTON,SI
+index,congresistas,votos,partidos,asunto,fecha
+0,SAGASTI HOCHHAUSLER,LICENCIA/AUSENTE,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+1, LIZANA SANTOS,LICENCIA/AUSENTE,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+2,VÁSQUEZ CHUQUILIN,NO VOTO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+3,LIZARRAGA HOUGHTON,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+4,ROEL ALVA,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+5,|LLAULLI ROMERO |  ,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+6,FERNÁNDEZ FLOREZ ,ABSTENCION,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+7,  |LOZANO INOSTROZA |,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+8, ACATE CORONEL,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+9,LUNA MORALES ,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+10,ACUÑA PERALTA,LICENCIA/AUSENTE,"APP
+"," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+11, [MACHACA MAMANI |    ,NO,"FREPAP
+"," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+12,AGUILAR ZAMORA,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+13,    [MAMANI BARRIGA_ | ,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+14,ALARCÓN TEJADA,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+15, | MAQUERA CHÁVEZ |  ,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+16,WALENCASTRE MIRANDA M,ABSTENCION,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+17,  MELÉNDEZ CELIS _  ,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+18,ALIAGA PAJARES,ABSTENCION,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+19,  MENDOZA MARQUINA  ,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+20,ALMERÍ VERAMENDI,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+21,  MERINO DE LAMA  ,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+22,ALONZO FERNÁNDEZ,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+23,  MERINO LÓPEZ  ,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+24,ANCALLE GUTIERREZ,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+25,  |MESÍA RAMÍREZ | ,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+26,APAZA QUISPE,SI,"UPP
+"," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+27, MONTOYA GUIVIN _,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+28,ARAPA ROQUE,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+29,[NOVOA CRUZADO |  ,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+30,ASCONA CALDERÓN,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+31,  NÚÑEZ MARREROS  ,NO,"FREPAP
+"," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+32,AYASTA DE DÍAZ,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+33,  |NÚNEZ SALAS |,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+34,AYQUIPA TORRES,NO,"FREPAP
+"," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+35,|OLIYARES CORTÉS |  ,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+36,BAJONERO OLIVAS,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+37,  OMONTE DURAND  ,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+38,BARRIQNUEVO ROMERO,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+39,  |OSEDA YUCRA I ,ABSTENCION,"FREPAP
+"," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+40,BARTOLO ROMERO,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+41, OYOLA RODRÍGUEZ — ,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+42,|BAZÁN VILLANUEVA |,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+43, PALOMINO SAAVEDRA,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+44,|BENAVIDES GAVIDIA M,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+45,PANTOJA CALVO,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+46,BENITES AGURTO,SI,"FREPAP
+"," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+47,PAREDES EYZAGUIRRE,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+48,BURGA CHUQUIPIONDO,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+49,PÉREZ ESPÍRITU,LICENCIA/AUSENTE,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+50,CABRERA VEGA,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+51,PÉREZ FLORES _,ABSTENCION,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+52,CAMPOS VILLALOBOS,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+53,PÉREZ MIMBELA,LICENCIA/AUSENTE,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+54,CARCAUSTO HUANCA,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+55,PÉREZ OCHOA ,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+56,|CASTILLO OLIVA |,LICENCIA/AUSENTE,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+57, PICHILINGUE GÓMEZ ,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+58,CAYGUARAY GAMBINI,NO,"FREPAP
+"," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+59, PINEDA SANTOS ,SI,"FREPAP
+"," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+60,CAYLLAHUA BARRIENTOS,NO,"FREPAP
+"," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+61, PINEDO ACHACA ,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+62,CÉSPEDES CÁRDENAS DE VELÁSQUEZ,LICENCIA/AUSENTE,"FREPAP
+"," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+63, PUÑO LECARNAQUÉ,NO,"APP
+"," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+64,CHAGUA PAYANO,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+65,QUISPE APAZA,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+66,CHAIÑA CONTRERAS,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+67,QUISPE SUÁREZ — ,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+68,CHAVARRÍA VILCATOMA,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+69, RAMOS ZAPANA,LICENCIA/AUSENTE,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+70,CHÁVEZ COSSÍO,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+71,RAYME MARÍN,NO,"FREPAP
+"," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+72,CHECCO CHAUCA,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+73,RETAMOZO LEZAMA,NO,"FREPAP
+"," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+74,CHEHADE MOYA,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+75,RIVAS OCEJO,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+76,COLUMBUS MURATA,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+77,RIVERA GUERRA,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+78,COMBINA SALVATIERRA,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+79,RODAS MALCA,ABSTENCION,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+80,CONDORÍ FLORES,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+81,RUBIO GARIZA,SI,"FREPAP
+"," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+82,CONTRERAS BAUTISTA,NO,"NA
+"," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+83,RUIZ PINEDO,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+84,COSTA SANTOLALLA,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+85,SAAVEDRA OCHARÁN,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+86,DE BELAUNDE DE CÁRDENAS,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+87,SALINAS LÓPEZ _,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+88,DIOSES GUZMÁN,ABSTENCION,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+89,SÁNCHEZ LUIS,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+90,DURAND BUSTAMANTE,ABSTENCION,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+91,SANTILLANA PAREDES ,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+92,ESPINOZA ROSALES,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+93, SILUPÚ INGA ,ABSTENCION,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+94,ESPINOZA VELARDE,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+95, SILVA SANTISTEBAN MANRIQUE,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+96,FABIÁN DÍAZ,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+97,SIMEÓN HURTADO,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+98,FERNÁNDEZ CHACÓN,ABSTENCION,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+99,SOLÍS GUTIÉRREZ |,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+100,FLORES VILLEGAS,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+101,TITO ORTEGA ,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+102,GALLARDO BECERRA,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+103, TOCTO GUERRERO ,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+104,[GARCÍA OVIEDO |,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+105, TROYES DELGADO,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+106,GARCÍA RODRÍGUEZ,LICENCIA/AUSENTE,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+107,TRUJILLO ZEGARRA,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+108,WGONZALES SANTOS |,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+109,[URRESTI ELERA — f  ,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+110,GONZALES TUANAMA,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+111,  VALDEZ FARÍAS  ,LICENCIA/AUSENTE,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+112,GONZÁLEZ CRUZ,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+113,  VALER COLLADO _  ,ABSTENCION,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+114,GUIBOVICH ARTEAGA,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+115,  VÁSQUEZ BECERRA —  ,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+116,GUPIOC RÍOS,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+117,  | VÁSQUEZTAN — | ,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+118,GUTARRA RAMOS,NO,"FREPAP
+"," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+119, VEGA ANTONIO,SI,"UPP
+"," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+120,HIDALGO ZAMALLOA,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+121,VERDE HEIDINGER ,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+122,HUAMÁN CHAMPI,NO,"FREPAP
+"," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+123, IVIGO GUTIÉRREZ |  ,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+124,HUAMANI MACHACA,NO,"FREPAP
+"," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+125,  IVIVAN$ REYES l,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+126,INGA SALES,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+127,IYU_P_ANQUI MIÑANO |  ,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+128,1LA20 VILLÓN |,NO,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20
+129,  ZÁRATE ANTÓN,SI,," 
+
+ 
+
+ 
+
+ASUNTO: Reconsideración a la prirñerá votación del texto sustitutorio de los proyectos de ley 5905, 5992, 6019, 6164, 6251, 6273, 6309, 6280, 6351, 6301
+y 6311, que propone la ley que garantiza el acceso al tratamiento preventivo y curativo de la enfermedad por coronavirus SARS-CoV-2 y de otras
+enfermedades que dan origen a emergencias sanitarias nacionales y otras pandemias declaradas por la Organización Mundial de la Salud, realizada en la
+sesión virtual del Pleno del 8 de octubre de 2020.
+
+  
+  
+
+ 
+
+ 
+
+ 
+",04-12-20

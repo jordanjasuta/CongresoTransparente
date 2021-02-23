@@ -1,131 +1,1973 @@
-index,congresistas,votos
-0,SAGASTI HOCHHAUSLER,LICENCIA/AUSENTE
-1,LIZANA SANTOS,LICENCIA/AUSENTE
-2,VASQUEZ CHUQUILIN,NO VOTO
-3,LIZARRAGA HOUGHTON,SI
-4,ROEL ALVA,SI
-5,LLAULLI ROMERO,SI
-6,FERNANDEZ FLOREZ ,SI
-7,LOZANO INOSTROZA,SI
-8, ACATE CORONEL,SI
-9,LUNA MORALES a,SI
-10,ACUNA PERALTA,LICENCIA/AUSENTE
-11,MACHACA MAMAN!,SI
-12,AGUILAR ZAMORA,SI
-13,MAMANI BARRIGA,SI
-14,ALARCON TEJADA,SI
-15,MAQUERA CHAVEZ |,SI
-16,ALENCASTRE MIRANDA,SI
-17,MELENDEZ CELIS,SI
-18,ALIAGA PAJARES,SI
-19,MENDOZA MARQUINA,SI
-20,ALMER/ VERAMENDI,SI
-21,MERINO DE LAMA,SI
-22,ALONZO FERNANDEZ,SI
-23,MERINO LOPEZ,SI
-24,ANCALLE GUTIERREZ,SI
-25, MESIA RAMIREZ,SI
-26,APAZA QUISPE,SI
-27,MONTOYA GUIVIN,SI
-28,ARAPA ROQUE,SI
-29,NOVOA CRUZADO,SI
-30,ASCONA CALDERON,SI
-31,NUNEZ MARREROS,SI
-32,AYASTA DE DIAZ,SI
-33,NUNEZ SALAS,SI
-34,AYQUIPA TORRES,LICENCIA/AUSENTE
-35,OLIVARES CORTES,SI
-36,BAJONERO OLIVAS,SI
-37,OMONTE DURAND,SI
-38,BARRIONUEVO ROMERO,SI
-39,|OSEDA YUCRA |,SI
-40,BARTOLO ROMERO,SI
-41,OYOLA RODRIGUEZ,SI
-42,BAZAN VILLANUEVA,SI
-43,PALOMINO SAAVEDRA,SI
-44,BENAVIDES GAVIDIA,SI
-45,PANTOJA CALVO,SI
-46,|BENITES AGURTO |,SI
-47,PAREDES EYZAGUIRRE,SI
-48,BURGA CHUQUIPIONDO,SI
-49,PEREZ ESP/RITU,LICENCIA/AUSENTE
-50,CABRERA VEGA,SI
-51,PEREZ FLORES,SI
-52,CAMPOS VILLALOBOS,SI
-53,PEREZ MIMBELA,SI
-54,CARCAUSTO HUANCA,SI
-55,PEREZ OCHOA,SI
-56,CASTILLO OLIVA,SI
-57,PICHILINGUE GOMEZ,SI
-58,| CAYGUARAY GAMBINI |,SI
-59,PINEDA SANTOS,SI
-60,CAYLLAHUA BARRIENTOS,SI
-61,PINEDO ACHACA ,SI
-62,CESPEDES CARDENAS DE VELASQUEZ,LICENCIA/AUSENTE
-63, PUNO LECARNAQUE,SI
-64,| CHAGUA PAYANO |,SI
-65,QUISPE APAZA,SI
-66,CHAINA CONTRERAS,SI
-67,QUISPE SUAREZ,SI
-68,CHAVARRIA VILCATOMA,SI
-69,RAMOS ZAPANA,SI
-70,CHAVEZ Cossio,NO
-71,RAYME MARIN,SI
-72,CHECCO CHAUCA,SI
-73,RETAMOZO LEZAMA _,SI
-74,|CHEHADE MOYA _ |,SI
-75,RIVAS OCEJO -,SI
-76,COLUMBUS MURATA,SI
-77,RIVERA GUERRA,SI
-78,COMBINA SALVATIERRA,SI
-79,RODAS MALCA,SI
-80,CONDOR FLORES,SI
-81,RUBIOGARIZAt#*” ,SI
-82,CONTRERAS BAUTISTA,SI
-83, RUIZ PINEDO a,SI
-84,COSTA SANTOLALLA,LICENCIA/AUSENTE
-85, ,SI
-86,DE BELAUNDE DE CARDENAS,SI
-87, SALINAS LOPEZ,SI
-88,DIOSES GUZMAN,SI
-89,SANCHEZLUIS  i(=w™,SI
-90,DURAND BUSTAMANTE,SI
-91,SANTILLANA PAREDES,SI
-92,ESPINOZA ROSALES,SI
-93,SILUPU INGA,SI
-94,ESPINOZA VELARDE,LICENCIA/AUSENTE
-95,SILVA SANTISTEBAN MANRIQUE,SI
-96,FABIAN DIAZ,SI
-97,SIMEON HURTADO,SI
-98,FERNANDEZ CHACON,SI
-99,SOLIS GUTIERREZ 7,SI
-100,FLORES VILLEGAS,SI
-101,ORTEGA,SI
-102,GALLARDO BECERRA,SI
-103,TOCTO GUERRERO,SI
-104,GARCIA OVIEDO,SI
-105,TROYES DELGADO,SI
-106,GARCIA RODRIGUEZ,SI
-107,TRUJILLO ZEGARRA ,SI
-108,GONZALES SANTOS,SI
-109, URRESTI ELERA ,SI
-110,GONZALES TUANAMA ,SI
-111, VALDEZ FARIAS ,SI
-112, GONZALEZCRUZ t+”,SI
-113, VALER COLLADO,SI
-114,GUIBOVICH ARTEAGA,SI
-115,VASQUEZ BECERRA ,SI
-116,[GUPIOC RIOS,SI
-117, VASQUEZ TAN ,SI
-118,GUTARRA RAM OS,SI
-119, ANTONIO,SI
-120,HIDALGO ZAMALLOA,SI
-121,| VERDE HEIDINGER |  ,SI
-122,HUAMAN CHAMP!,SI
-123,  lviGo GUTIERREZ | ,SI
-124,HUAMANI MACHACA,SI
-125, VIVANCO REYES,SI
-126,INGA SALES |,SI
-127,YUPANQUI MINANO,SI
-128,[LAZO VILLON |,LICENCIA/AUSENTE
-129,|ZARATE ANTON |,SI
+index,congresistas,votos,partidos,asunto,fecha
+0,SAGASTI HOCHHAUSLER,LICENCIA/AUSENTE,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+1,LIZANA SANTOS,LICENCIA/AUSENTE,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+2,VÁSQUEZ CHUQUILIN,NO VOTO,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+3,LIZARRAGA HOUGHTON,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+4,ROEL ALVA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+5,LLAULLI ROMERO,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+6,FERNÁNDEZ FLOREZ ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+7,LOZANO INOSTROZA,SI,"UPP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+8, ACATE CORONEL,SI,"APP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+9,LUNA MORALES —,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+10,ACUÑA PERALTA,LICENCIA/AUSENTE,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+11,MACHACA MAMANI,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+12,AGUILAR ZAMORA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+13,MAMANI BARRIGA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+14,ALARCÓN TEJADA,SI,"UPP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+15,MAQUERA CHÁVEZ |,SI,"UPP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+16,ALENCASTRE MIRANDA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+17,MELÉNDEZ CELIS,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+18,ALIAGA PAJARES,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+19,MENDOZA MARQUINA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+20,ALMERÍ VERAMENDI,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+21,MERINO DE LAMA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+22,ALONZO FERNÁNDEZ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+23,MERINO LÓPEZ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+24,ANCALLE GUTIERREZ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+25, MESÍA RAMÍREZ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+26,APAZA QUISPE,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+27,MONTOYA GUIVIN,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+28,ARAPA ROQUE,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+29,NOVOA CRUZADO,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+30,ASCONA CALDERÓN,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+31,NÚÑEZ MARREROS,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+32,AYASTA DE DÍAZ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+33,NÚÑEZ SALAS,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+34,AYQUIPA TORRES,LICENCIA/AUSENTE,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+35,OLIVARES CORTÉS,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+36,BAJONERO OLIVAS,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+37,OMONTE DURAND,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+38,BARRIONUEVO ROMERO,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+39,|OSEDA YUCRA M,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+40,BARTOLO ROMERO,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+41,OYOLA RODRÍGUEZ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+42,BAZÁN VILLANUEVA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+43,PALOMINO SAAVEDRA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+44,BENAVIDES GAVIDIA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+45,PANTOJA CALVO,SI,"UPP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+46,|BENITES AGURTO |,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+47,PAREDES EYZAGUIRRE,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+48,BURGA CHUQUIPIONDO,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+49,PÉREZ ESPÍRITU,LICENCIA/AUSENTE,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+50,CABRERA VEGA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+51,PÉREZ FLORES,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+52,CAMPOS VILLALOBOS,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+53,PÉREZ MIMBELA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+54,CARCAUSTO HUANCA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+55,PÉREZ OCHOA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+56,CASTILLO OLIVA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+57,PICHILINGUE GÓMEZ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+58,|CAYGUARAY GAMBINI I,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+59,PINEDA SANTOS,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+60,CAYLLAHUA BARRIENTOS,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+61,PINEDO ACHACA ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+62,CÉSPEDES CÁRDENAS DE VELÁSQUEZ,LICENCIA/AUSENTE,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+63, PUÑO LECARNAQUÉ,SI,"APP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+64,| CHAGUA PAYANO |,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+65,QUISPE APAZA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+66,CHAIÑA CONTRERAS,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+67,QUISPE SUÁREZ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+68,CHAVARRÍA VILCATOMA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+69,RAMOS ZAPANA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+70,CHÁVEZ COSSÍO,NO,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+71,RAYME MARÍN —,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+72,CHECCO CHAUCA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+73,RETAMOZO LEZAMA —,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+74,[CHEHADE MOYA — |,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+75,RIVAS OCEJO -,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+76,COLUMBUS MURATA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+77,RIVERA GUERRA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+78,COMBINA SALVATIERRA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+79,RODAS MALCA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+80,CONDORÍ FLORES,SI,"APP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+81,RUBIOGARIZA — ,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+82,CONTRERAS BAUTISTA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+83, RUIZ PINEDO —,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+84,COSTA SANTOLALLA,LICENCIA/AUSENTE,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+85, ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+86,DE BELAUNDE DE CÁRDENAS,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+87, SALINAS LÓPEZ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+88,DIOSES GUZMÁN,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+89,SÁNCHEZLUIS —,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+90,DURAND BUSTAMANTE,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+91,SANTILLANA PAREDES,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+92,ESPINOZA ROSALES,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+93,SILUPÚ INGA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+94,ESPINOZA VELARDE,LICENCIA/AUSENTE,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+95,SILVA SANTISTEBAN MANRIQUE,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+96,FABIÁN DÍAZ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+97,SIMEÓN HURTADO,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+98,FERNÁNDEZ CHACÓN,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+99,SOLÍS GUTIÉRREZ _,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+100,FLORES VILLEGAS,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+101,ORTEGA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+102,GALLARDO BECERRA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+103,TOCTO GUERRERO,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+104,GARCÍA OVIEDO,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+105,TROYES DELGADO,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+106,GARCÍA RODRÍGUEZ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+107,TRUJILLO ZEGARRA ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+108,GONZALES SANTOS,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+109, URRESTI ELERA ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+110,GONZALES TUANAMA ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+111, VALDEZ FARÍAS ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+112, GONZÁLEZCRUZ —,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+113, VALER COLLADO,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+114,GUIBOVICH ARTEAGA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+115,VÁSQUEZ BECERRA ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+116,GUPIOC RÍOS,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+117, VÁSQUEZ TAN ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+118,GUTARRA RAM OS,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+119, ANTONIO,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+120,HIDALGO ZAMALLOA,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+121,|VERDE HEIDINGER _ |  ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+122,HUAMÁN CHAMPI,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+123,  |v¡eo GUTIÉRREZ | ,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+124,HUAMANI MACHACA,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+125, VIVANCO REYES,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+126,INGA SALES |,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+127,YUPANQUI MIÑANO,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+128,1LA20 VILLÓN |,LICENCIA/AUSENTE,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20
+129,WZÁRA_TE_ANTÓN |,SI,," 
+
+ 
+
+ASUNTO: Moción de Orden del Día 13287 (Admisión a debate), que propone conformar una comisión multipartidaria, con la participación de cada grupo
+parlamentario, la cual se encargará de realizar las coordinaciones con los distintos actores, sectores involucrados y el Poder Ejecutivo; a fin de elaborar una
+iniciativa legislativa sobre una nueva Ley General de Régimen Agrario en un plazo de hasta quince (15) días calendario.
+
+— *
+
+  
+ 
+
+ 
+",04-12-20

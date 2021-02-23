@@ -1,131 +1,1193 @@
-index,congresistas,votos
-0,SAGASTI HOCHHAUSLER,LICENCIA/AUSENTE
-1,LIZANA SANTOS,LICENCIA/AUSENTE
-2,VASQUEZ CHUQUILIN,LICENCIA/AUSENTE
-3,LIZARRAGA HOUGHTON,ABSTENCION
-4,ROEL ALVA,ABSTENCION
-5,LLAULLI ROMERO,SI
-6,FERNANDEZ FLOREZ ,NO VOTO
-7,LOZANO INOSTROZA,SI
-8, ACATE CORONEL |,LICENCIA/AUSENTE
-9,LUNA MORALES a,SI
-10,ACUNA PERALTA,LICENCIA/AUSENTE
-11,MACHACA MAMANI,SI
-12,AGUILAR ZAMORA,ABSTENCION
-13,MAMANI BARRIGA,ABSTENCION
-14,ALARCON TEJADA,ABSTENCION
-15,MAQUERA CHAVEZ,SI
-16,ALENCASTRE MIRANDA,ABSTENCION
-17,MELENDEZ CELIS a,SI
-18,ALIAGA PAJARES,ABSTENCION
-19,MENDOZA MARQUINA,SI
-20,ALMER/ VERAMENDI,SI
-21,MERINO DE LAMA,ABSTENCION
-22,ALONZO FERNANDEZ,ABSTENCION
-23,MERINO LOPEZ,SI
-24,ANCALLE GUTIERREZ,SI
-25,MESIA RAMIREZ,ABSTENCION
-26,APAZA QUISPE,SI
-27,MONTOYAGUIVIN |,SI
-28,ARAPA ROQUE,SI
-29,NOVOA CRUZADO,SI
-30,ASCONA CALDERON,SI
-31,NUNEZ MARREROS,SI
-32,AYASTA DE DIAZ,ABSTENCION
-33,NUNEZ SALAS,NO
-34,AYQUIPA TORRES,SI
-35,OLIVARES CORTES,ABSTENCION
-36,BAJONERO OLIVAS,SI
-37,OMONTE DURAND,SI
-38,BARRIONUEVO ROMERO,SI
-39,OSEDA YUCRA,SI
-40,BARTOLO ROMERO,LICENCIA/AUSENTE
-41,OYOLA RODRIGUEZ,ABSTENCION
-42,BAZAN VILLANUEVA,SI
-43,PALOMINO SAAVEDRA,ABSTENCION
-44,BENAVIDES GAVIDIA,SI
-45,PANTOJA CALVO,SI
-46,BENITES AGURTO,SI
-47,PAREDES EYZAGUIRRE,SI
-48,BURGA CHUQUIPIONDO,ABSTENCION
-49,|PEREZ ESPIRITU |,SI
-50,CABRERA VEGA,SI
-51,PEREZ FLORES,ABSTENCION
-52,CAMPOS VILLALOBOS,SI
-53,PEREZ MIMBELA,SI
-54,CARCAUSTO HUANCA,SI
-55,PEREZ OCHOA,ABSTENCION
-56,CASTILLO OLIVA,SI
-57,PICHILINGUE GOMEZ,SI
-58,|CAYGUARAY GAMBINI |,SI
-59,PINEDA SANTOS,SI
-60,| CAYLLAHUA BARRIENTOS |,SI
-61,PINEDO ACHACA,ABSTENCION
-62,CESPEDES CARDENAS DE VELASQUEZ,LICENCIA/AUSENTE
-63,PUNO LECARNAQUE,SI
-64,CHAGUA PAYANO,SI
-65,QUISPE APAZA,ABSTENCION
-66,CHAINA CONTRERAS,SI
-67,QUISPE SUAREZ,SI
-68,CHAVARRIA VILCATOMA,SI
-69,RAMOS ZAPANA,SI
-70,CHAVEZ COSSsiO,ABSTENCION
-71,RAYME MARIN,SI
-72,CHECCO CHAUCA,LICENCIA/AUSENTE
-73,RETAMOZO LEZAMA,SI
-74,CHEHADE MOYA,SI
-75,RIVAS OCEJO,SI
-76,COLUMBUS MURATA,ABSTENCION
-77,RIVERA GUERRA,SI
-78,COMBINA SALVATIERRA,LICENCIA/AUSENTE
-79,RODAS MALCA,SI
-80,CONDORI FLORES,LICENCIA/AUSENTE
-81,RUBIO GARIZA,SI
-82,CONTRERAS BAUTISTA,SI
-83,RUIZ PINEDO- _,ABSTENCION
-84,COSTA SANTOLALLA,ABSTENCION
-85,SAAVEDRA OCHARAN,ABSTENCION
-86,DE BELAUNDE DE CARDENAS,ABSTENCION
-87,SALINAS LOPEZ,SI
-88,DIOSES GUZMAN,ABSTENCION
-89,SANCHEZ LUIS,SI
-90,DURAND BUSTAMANTE,ABSTENCION
-91,SANTILLANA PAREDES,SI
-92,ESPINOZA ROSALES,SI
-93,SILUPU INGA,ABSTENCION
-94,ESPINOZA VELARDE,LICENCIA/AUSENTE
-95,SILVA SANTISTEBAN MANRIQUE,ABSTENCION
-96,FABIAN DIAZ,ABSTENCION
-97,SIMEON HURTADO,ABSTENCION
-98,FERNANDEZ CHACON,SI
-99,SOLIS GUTIERREZ ,ABSTENCION
-100,FLORES VILLEGAS,SI
-101, TITO ORTEGA,ABSTENCION
-102,GALLARDO BECERRA,SI
-103,TOCTO GUERRERO,SI
-104,GARCIA OVIEDO,SI
-105,TROYES DELGADO ©,SI
-106,GARCIA RODRIGUEZ |,SI
-107,TRUJILLO ZEGARRA,ABSTENCION
-108,GONZALES SANTOS,ABSTENCION
-109,URRESTI ELERA,SI
-110,GONZALES TUANAMA,SI
-111,VALDEZ FARIAS oe,LICENCIA/AUSENTE
-112,GONZALEZ CRUZ,SI
-113,VALERCOLLADO,ABSTENCION
-114,GUIBOVICH ARTEAGA,ABSTENCION
-115,VASQUEZ BECERRA,SI
-116,GUPIOC RIOS,SI
-117,VASQUEZ TAN,LICENCIA/AUSENTE
-118,GUTARRA RAMOS,SI
-119,VEGA ANTONIO,SI
-120,| HIDALGO ZAMALLOA |,SI
-121,VERDE HEIDINGER,SI
-122,[HUAMAN CHAMPI |,SI
-123,VIGO GUTIERREZ,ABSTENCION
-124,HUAMANI MACHACA,SI
-125,VIVANCO REYES,ABSTENCION
-126,INGA SALES |,ABSTENCION
-127,YUPANQUI MINANO,SI
-128,ILAZO VILLON |,LICENCIA/AUSENTE
-129,|ZARATE ANTON |,ABSTENCION
+index,congresistas,votos,partidos,asunto,fecha
+0,SAGASTI HOCHHAUSLER,LICENCIA/AUSENTE,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+1,LIZANA SANTOS,LICENCIA/AUSENTE,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+2,VÁSQUEZ CHUQUILIN,LICENCIA/AUSENTE,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+3,LIZARRAGA HOUGHTON,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+4,ROEL ALVA,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+5,LLAULLI ROMERO,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+6,FERNÁNDEZ FLOREZ ,NO VOTO,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+7,LOZANO INOSTROZA,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+8, ACATE CORONEL |,LICENCIA/AUSENTE,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+9,LUNA MORALES .,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+10,ACUÑA PERALTA,LICENCIA/AUSENTE,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+11,MACHACA MAMANI,SI,"FREPAP
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+12,AGUILAR ZAMORA,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+13,MAMANI BARRIGA,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+14,ALARCÓN TEJADA,ABSTENCION,"UPP
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+15,MAQUERA CHÁVEZ,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+16,ALENCASTRE MIRANDA,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+17,MELÉNDEZ CELIS —,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+18,ALIAGA PAJARES,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+19,MENDOZA MARQUINA,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+20,ALMERÍ VERAMENDI,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+21,MERINO DE LAMA,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+22,ALONZO FERNÁNDEZ,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+23,MERINO LÓPEZ,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+24,ANCALLE GUTIERREZ,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+25,MESÍA RAMÍREZ,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+26,APAZA QUISPE,SI,"UPP
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+27,MONTOYA GUIVIN —,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+28,ARAPA ROQUE,SI,"NC
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+29,NOVOA CRUZADO,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+30,ASCONA CALDERÓN,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+31,NÚÑEZ MARREROS,SI,"FREPAP
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+32,AYASTA DE DÍAZ,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+33,NÚÑEZ SALAS,NO,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+34,AYQUIPA TORRES,SI,"FREPAP
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+35,OLIVARES CORTÉS,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+36,BAJONERO OLIVAS,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+37,OMONTE DURAND,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+38,BARRIONUEVO ROMERO,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+39,OSEDA YUCRA,SI,"FREPAP
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+40,BARTOLO ROMERO,LICENCIA/AUSENTE,"NC
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+41,OYOLA RODRÍGUEZ,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+42,BAZÁN VILLANUEVA,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+43,PALOMINO SAAVEDRA,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+44,BENAVIDES GAVIDIA,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+45,PANTOJA CALVO,SI,"UPP
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+46,BENITES AGURTO,SI,"FREPAP
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+47,PAREDES EYZAGUIRRE,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+48,BURGA CHUQUIPIONDO,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+49,|PEREZ ESPÍRITU |,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+50,CABRERA VEGA,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+51,PÉREZ FLORES,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+52,CAMPOS VILLALOBOS,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+53,PÉREZ MIMBELA,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+54,CARCAUSTO HUANCA,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+55,PÉREZ OCHOA,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+56,CASTILLO OLIVA,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+57,PICHILINGUE GÓMEZ,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+58,|CAYGUARAY GAMBINI M,SI,"FREPAP
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+59,PINEDA SANTOS,SI,"FREPAP
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+60,I CAYLLAHUA BARRIENTOS M,SI,"FREPAP
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+61,PINEDO ACHACA,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+62,CÉSPEDES CÁRDENAS DE VELÁSQUEZ,LICENCIA/AUSENTE,"FREPAP
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+63,PUÑO LECARNAQUÉ,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+64,CHAGUA PAYANO,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+65,QUISPE APAZA,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+66,CHAIÑA CONTRERAS,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+67,QUISPE SUÁREZ,SI,"APP
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+68,CHAVARRÍA VILCATOMA,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+69,RAMOS ZAPANA,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+70,CHÁVEZ COSSÍO,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+71,RAYME MARÍN,SI,"FREPAP
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+72,CHECCO CHAUCA,LICENCIA/AUSENTE,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+73,RETAMOZO LEZAMA,SI,"FREPAP
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+74,CHEHADE MOYA,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+75,RIVAS OCEJO,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+76,COLUMBUS MURATA,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+77,RIVERA GUERRA,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+78,COMBINA SALVATIERRA,LICENCIA/AUSENTE,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+79,RODAS MALCA,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+80,CONDORÍ FLORES,LICENCIA/AUSENTE,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+81,RUBIO GARIZA,SI,"FREPAP
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+82,CONTRERAS BAUTISTA,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+83,RUIZ PINEDO: —,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+84,COSTA SANTOLALLA,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+85,SAAVEDRA OCHARÁN,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+86,DE BELAUNDE DE CÁRDENAS,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+87,SALINAS LÓPEZ,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+88,DIOSES GUZMÁN,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+89,SÁNCHEZ LUIS,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+90,DURAND BUSTAMANTE,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+91,SANTILLANA PAREDES,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+92,ESPINOZA ROSALES,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+93,SILUPÚ INGA,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+94,ESPINOZA VELARDE,LICENCIA/AUSENTE,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+95,SILVA SANTISTEBAN MANRIQUE,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+96,FABIÁN DÍAZ,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+97,SIMEÓN HURTADO,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+98,FERNÁNDEZ CHACÓN,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+99,SOLÍS GUTIÉRREZ ,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+100,FLORES VILLEGAS,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+101, TITO ORTEGA,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+102,GALLARDO BECERRA,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+103,TOCTO GUERRERO,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+104,GARCÍA OVIEDO,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+105,TROYES DELGADO —,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+106,GARCÍA RODRÍGUEZ |,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+107,TRUJILLO ZEGARRA,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+108,GONZALES SANTOS,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+109,URRESTI ELERA,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+110,GONZALES TUANAMA,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+111,VALDEZ FARÍAS —,LICENCIA/AUSENTE,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+112,GONZÁLEZ CRUZ,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+113,VALERCOLLADO —,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+114,GUIBOVICH ARTEAGA,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+115,VÁSQUEZ BECERRA,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+116,GUPIOC RÍOS,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+117,VÁSQUEZ TAN,LICENCIA/AUSENTE,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+118,GUTARRA RAMOS,SI,"FREPAP
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+119,VEGA ANTONIO,SI,"UPP
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+120,| HIDALGO ZAMALLOA l,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+121,VERDE HEIDINGER,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+122,IHUAMÁN CHAMPI |,SI,"FREPAP
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+123,VIGO GUTIÉRREZ,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+124,HUAMANI MACHACA,SI,"FREPAP
+"," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+125,VIVANCO REYES,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+126,INGA SALES |,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+127,YUPANQUI MIÑANO,SI,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+128,ILA20 VILLÓN |,LICENCIA/AUSENTE,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20
+129,12ÁRATE ANTÓN |,ABSTENCION,," 
+
+ASUNTO: Insistencia en la autógrafa observada por el Presidente de la República recaída en el Proyecto de Ley 2895, que propone la ley que enfrenta las
+prácticas de elusión de derechos antidumping y compensatorios.
+
+ 
+
+ 
+",04-12-20

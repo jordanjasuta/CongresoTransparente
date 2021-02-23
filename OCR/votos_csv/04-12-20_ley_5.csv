@@ -1,131 +1,2362 @@
-index,congresistas,votos
-0,SAGASTI HOCHHAUSLER,LICENCIA/AUSENTE
-1,LIZANA SANTOS,LICENCIA/AUSENTE
-2,VASQUEZ CHUQUILIN,NO VOTO
-3,LIZARRAGA HOUGHTON,SI
-4,ROEL ALVA,SI
-5,|LLAULLI ROMERO / |,SI
-6,FERNANDEZ FLOREZ ,SI
-7,LOZANO INOSTROZA,SI
-8, ACATE CORONEL,SI
-9,LUNA MORALES,SI
-10,[ACUNA PERALTA |,LICENCIA/AUSENTE
-11,MACHACA MAMANI ; ,SI
-12,AGUILAR ZAMORA,SI
-13, MAMANI BARRIGA ;,SI
-14,ALARCON TEJADA,SI
-15,MAQUERA CHAVEZ,SI
-16,ALENCASTRE MIRANDA,SI
-17,MELENDEZ CELIS,SI
-18,ALIAGA PAJARES,SI
-19,MENDOZA MARQUINA,SI
-20,ALMERI VERAMENDI,SI
-21,MERINO DE LAMA,SI
-22,ALONZO FERNANDEZ,SI
-23,MERINO LOPEZ,SI
-24,ANCALLE GUTIERREZ,SI
-25,MESIA RAMIREZ,ABSTENCION
-26,APAZA QUISPE,SI
-27,MONTOYA GUIVIN,SI
-28,ARAPA ROQUE,SI
-29,NOVOA CRUZADO i,SI
-30,ASCONA CALDERON,SI
-31,NUNEZ MARREROS,SI
-32,AYASTA DE DIAZ,ABSTENCION
-33,NUNEZ SALAS _,SI
-34,AYQUIPA TORRES,SI
-35,OLIVARES CORTES,SI
-36,BAJONERO OLIVAS,SI
-37,OMONTE DURAND,SI
-38,BARRIONUEVO ROMERO,SI
-39,OSEDA YUCRA,SI
-40,| BARTOLO ROMERO |,SI
-41,OYOLA RODRIGUEZ,SI
-42,BAZAN VILLANUEVA,SI
-43,PALOMINO SAAVEDRA,SI
-44,BENAVIDES GAVIDIA,SI
-45,PANTOJA CALVO,SI
-46,BENITES AGURTO,SI
-47,PAREDES EYZAGUIRRE,SI
-48,BURGA CHUQUIPIONDO,SI
-49,PEREZ ESP{RITU,SI
-50,CABRERA VEGA,SI
-51,PEREZ FLORES,SI
-52,CAMPOS VILLALOBOS,SI
-53,PEREZ MIMBELA,SI
-54,CARCAUSTO HUANCA,SI
-55,PEREZ OCHOA,SI
-56,CASTILLO OLIVA,SI
-57,PICHILINGUE GOMEZ,ABSTENCION
-58,CAYGUARAY GAMBINI,SI
-59,PINEDA SANTOS,SI
-60,CAYLLAHUA BARRIENTOS,SI
-61,PINEDO ACHACA,SI
-62,CESPEDES CARDENAS DE VELASQUEZ,LICENCIA/AUSENTE
-63,PUNO LECARNAQUE,SI
-64,[CHAGUA PAYANO |,SI
-65,QUISPE APAZA,SI
-66,CHAINA CONTRERAS,SI
-67,QUISPE SUAREZ,SI
-68,CHAVARRIA VILCATOMA,SI
-69,RAMOS ZAPANA,SI
-70,CHAVEZ COSSIO,NO
-71,RAYME MARIN,SI
-72,CHECCO CHAUCA,SI
-73,RETAMOZO LEZAMA,SI
-74,CHEHADE MOYA,SI
-75,RIVAS OCEJO,SI
-76,COLUMBUS MURATA,ABSTENCION
-77,RIVERA GUERRA,SI
-78,COMBINA SALVATIERRA,SI
-79,RODAS MALCA,SI
-80,CONDORI FLORES,SI
-81,RUBIO GARIZA,SI
-82,CONTRERAS BAUTISTA,SI
-83,RUIZ PINEDO,SI
-84,COSTA SANTOLALLA,LICENCIA/AUSENTE
-85,SAAVEDRA OCHARAN,SI
-86,DE BELAUNDE DE CARDENAS,SI
-87,[SALINAS LOPEZ |,SI
-88,DIOSES GUZMAN,SI
-89,SANCHEZ LUIS,SI
-90,DURAND BUSTAMANTE,SI
-91,SANTILLANA PAREDES,SI
-92,ESPINOZA ROSALES,NO
-93,SILUPU INGA,SI
-94,ESPINOZA VELARDE,LICENCIA/AUSENTE
-95,SILVA SANTISTEBAN MANRIQUE,SI
-96,FABIAN DIAZ,SI
-97,SIMEON HURTADO _,SI
-98,FERNANDEZ CHACON,SI
-99,SOLIS GUTIERREZ,SI
-100,FLORES VILLEGAS,SI
-101,TITO ORTEGA,ABSTENCION
-102,GALLARDO BECERRA,SI
-103,TOCTO GUERRERO,SI
-104,GARCIA OVIEDO,SI
-105,TROYES DELGADO,SI
-106,GARCIA RODRIGUEZ,SI
-107,TRUJILLO ZEGARRA,ABSTENCION
-108,GONZALES SANTOS,SI
-109,URRESTI ELERA,SI
-110,GONZALES TUANAMA,SI
-111,VALDEZ FARIAS,SI
-112,GONZALEZ CRUZ,SI
-113,VALER COLLADO,ABSTENCION
-114,GUIBOVICH ARTEAGA,SI
-115,VASQUEZ BECERRA,SI
-116,GUPIOC RIOS,SI
-117,VASQUEZ TAN,SI
-118,GUTARRA RAMOS,SI
-119,VEGA ANTONIO 7,SI
-120,HIDALGO ZAMALLOA,SI
-121,VERDE HEIDINGER,SI
-122,HUAMAN CHAMPI,SI
-123,VIGO GUTIERREZ,SI
-124,HUAMANI MACHACA,SI
-125,VIVANCO REYES,SI
-126,INGA SALES,SI
-127,YUPANQU! MINANO,SI
-128,| LAZO VILLON |,SI
-129,|ZARATE ANTON |,SI
+index,congresistas,votos,partidos,asunto,fecha
+0,SAGASTI HOCHHAUSLER,LICENCIA/AUSENTE,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+1,LIZANA SANTOS,LICENCIA/AUSENTE,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+2,VÁSQUEZ CHUQUILIN,NO VOTO,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+3,LIZARRAGA HOUGHTON,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+4,ROEL ALVA,SI,"AP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+5,[LLAULLI ROMERO ! |,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+6,FERNÁNDEZ FLOREZ ,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+7,LOZANO INOSTROZA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+8, ACATE CORONEL,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+9,LUNA MORALES,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+10,[ACUNA PERALTA ¡,LICENCIA/AUSENTE,"APP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+11,MACHACA MAMANI . ,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+12,AGUILAR ZAMORA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+13, MAMANI BARRIGA -,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+14,ALARCÓN TEJADA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+15,MAQUERA CHÁVEZ,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+16,ALENCASTRE MIRANDA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+17,MELÉNDEZ CELIS,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+18,ALIAGA PAJARES,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+19,MENDOZA MARQUINA —,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+20,ALMERÍ VERAMENDI,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+21,MERINO DE LAMA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+22,ALONZO FERNÁNDEZ,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+23,MERINO LÓPEZ,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+24,ANCALLE GUTIERREZ,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+25,MESÍA RAMÍREZ,ABSTENCION,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+26,APAZA QUISPE,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+27,MONTOYA GUIVIN,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+28,ARAPA ROQUE,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+29,NOVOA CRUZADO _,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+30,ASCONA CALDERÓN,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+31,NÚÑEZ MARREROS,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+32,AYASTA DE DÍAZ,ABSTENCION,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+33,NÚÑEZ SALAS —,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+34,AYQUIPA TORRES,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+35,OLIVARES CORTÉS,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+36,BAJONERO OLIVAS,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+37,OMONTE DURAND,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+38,BARRIONUEVO ROMERO,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+39,OSEDA YUCRA,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+40,| BARTOLO ROMERO l,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+41,OYOLA RODRÍGUEZ,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+42,BAZÁN VILLANUEVA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+43,PALOMINO SAAVEDRA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+44,BENAVIDES GAVIDIA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+45,PANTOJA CALVO,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+46,BENITES AGURTO,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+47,PAREDES EYZAGUIRRE,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+48,BURGA CHUQUIPIONDO,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+49,PÉREZ ESPÍRITU,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+50,CABRERA VEGA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+51,PÉREZ FLORES,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+52,CAMPOS VILLALOBOS,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+53,PÉREZ MIMBELA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+54,CARCAUSTO HUANCA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+55,PÉREZ OCHOA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+56,CASTILLO OLIVA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+57,PICHILINGUE GÓMEZ,ABSTENCION,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+58,CAYGUARAY GAMBINI,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+59,PINEDA SANTOS,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+60,CAYLLAHUA BARRIENTOS,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+61,PINEDO ACHACA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+62,CÉSPEDES CÁRDENAS DE VELÁSQUEZ,LICENCIA/AUSENTE,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+63,PUÑO LECARNAQUÉ,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+64,WCHAGUA PAYANO M,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+65,QUISPE APAZA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+66,CHAIÑA CONTRERAS,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+67,QUISPE SUÁREZ,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+68,CHAVARRÍA VILCATOMA,SI,"UPP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+69,RAMOS ZAPANA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+70,CHÁVEZ COSSÍO,NO,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+71,RAYME MARÍN,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+72,CHECCO CHAUCA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+73,RETAMOZO LEZAMA,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+74,CHEHADE MOYA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+75,RIVAS OCEJO,SI,"APP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+76,COLUMBUS MURATA,ABSTENCION,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+77,RIVERA GUERRA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+78,COMBINA SALVATIERRA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+79,RODAS MALCA,SI,"APP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+80,CONDORÍ FLORES,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+81,RUBIO GARIZA,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+82,CONTRERAS BAUTISTA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+83,RUIZ PINEDO,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+84,COSTA SANTOLALLA,LICENCIA/AUSENTE,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+85,SAAVEDRA OCHARÁN,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+86,DE BELAUNDE DE CÁRDENAS,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+87,15AL|NAS LÓPEZ ¡,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+88,DIOSES GUZMÁN,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+89,SÁNCHEZ LUIS,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+90,DURAND BUSTAMANTE,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+91,SANTILLANA PAREDES,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+92,ESPINOZA ROSALES,NO,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+93,SILUPÚ INGA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+94,ESPINOZA VELARDE,LICENCIA/AUSENTE,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+95,SILVA SANTISTEBAN MANRIQUE,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+96,FABIÁN DÍAZ,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+97,SIMEÓN HURTADO —,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+98,FERNÁNDEZ CHACÓN,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+99,SOLÍS GUTIÉRREZ,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+100,FLORES VILLEGAS,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+101,TITO ORTEGA,ABSTENCION,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+102,GALLARDO BECERRA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+103,TOCTO GUERRERO,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+104,GARCÍA OVIEDO,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+105,TROYES DELGADO,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+106,GARCÍA RODRÍGUEZ,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+107,TRUJILLO ZEGARRA,ABSTENCION,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+108,GONZALES SANTOS,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+109,URRESTI ELERA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+110,GONZALES TUANAMA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+111,VALDEZ FARÍAS,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+112,GONZÁLEZ CRUZ,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+113,VALER COLLADO,ABSTENCION,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+114,GUIBOVICH ARTEAGA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+115,VÁSQUEZ BECERRA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+116,GUPIOC RÍOS,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+117,VÁSQUEZ TAN,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+118,GUTARRA RAMOS,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+119,VEGA ANTONIO,SI,"UPP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+120,HIDALGO ZAMALLOA,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+121,VERDE HEIDINGER,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+122,HUAMÁN CHAMPI,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+123,VIGO GUTIÉRREZ,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+124,HUAMANI MACHACA,SI,"FREPAP
+"," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+125,VIVANCO REYES,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+126,INGA SALES,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+127,YUPANQUI MIÑANO,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+128,W LAZO VILLÓN l,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
+129,IZÁRATE ANTÓN M,SI,," 
+
+ 
+
+ASUNTO: Texto sustitutorio de los proyectos de ley 5314, 5759, 6128, 6713 y 6716, que propone la ley que deroga la Ley 27360, Ley que aprueba las
+normas de promoción del sector agrario y el Decreto de Urgencia 043-2019, modifica la Ley 27360, para promover y mejorar las condiciones para el
+desarrollo de la actividad agraria.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+",04-12-20
