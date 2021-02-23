@@ -8,20 +8,21 @@ Created on Mon Feb  8 08:36:34 2021
 
 
 import os
-# os.chdir('/Users/oscarrodriguez/Desktop/OCR/OCR Votos')
 import cv2
 import numpy as np
 import pandas as pd
 import TableRecognition
-# from TableRecognition import _find_contours as findContours
 from pdf2image import convert_from_path
 from collections import Counter
 import pytesseract
 
+try:
+    pytesseract.pytesseract.tesseract_cmd = r'/usr/local/Cellar/tesseract/4.1.1/bin/tesseract'   
+except:
+    pass
 
 class TableOCR():
     def pdfToImage(self, path, newdir):
-        # fecha = path[-12:-4]   # TO DO: update for flexibility
         fecha = path.split('Asis-vot-OFICIAL-')[1][:-4]
         print(fecha)
         try:
@@ -96,15 +97,6 @@ class TableOCR():
         print_path = 'fingerprints/'+fecha+'_'+num_ley+'.png'
         cv2.imwrite(print_path, img)
         tab_coords = contour_analyzer.cell_table_coord
-
-        # cells = []
-        # for i in reversed(range(len(tab_coords))):
-        #     img_sect = contour_analyzer.extract_cell_from_image(img, tuple(tab_coords[i]), xscale=1, yscale=1)
-        #     # print(img_sect)
-        #     cells.append(img_sect)
-
-
-        # contour_analyzer.get_contours()
         return img, imgThreshInv, tab_coords[::-1], contour_analyzer
 
     def extractCell(self, img, contour_analyzer, tab_coords, save = False, idx = None, fecha = None):
@@ -139,6 +131,17 @@ class TableOCR():
         meanWhite = np.mean(crop_img)
         # If proportion of white is high enough (> 254), mark as empty
         return True if meanWhite > 254 else False
+    
+    def OCR(self, img_sect):
+        '''
+        Use tesseract to read strings 
+        '''
+        kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (2, 1))
+        border = cv2.copyMakeBorder(img_sect,2,2,2,2,   cv2.BORDER_CONSTANT,value=[255,255])
+        resizing = cv2.resize(border, None, fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
+        dilation = cv2.dilate(resizing, kernel,iterations=1)
+        erosion = cv2.erode(dilation, kernel,iterations=1)
+        return pytesseract.image_to_string(erosion, lang='spa')
 
 
 
@@ -156,13 +159,12 @@ class TableOCR():
         # This array helps know whether cell exists (if congressperson is absent or excused they are merged)
         table_coords_to_node = contour_analyzer.table_coords_to_node
         # Define values to iterate over
-        xbegin, ybegin = np.min(tab_coords[:,0]), np.min(tab_coords[:,1])
-        xrange, yrange = xbegin + np.ptp(tab_coords[:,0]), ybegin + np.ptp(tab_coords[:,1])
+        xrange, yrange = np.ptp(tab_coords[:,0]), np.ptp(tab_coords[:,1])
         #Keep track of the index in case of debugging
         idx = 0
         # Iterate over all possible coordinates (begin at y=4 because thats where congresspeople start)
-        for ycoord in range(4, yrange+1):
-            for xcoord in range(xrange+1):
+        for ycoord in range(yrange+1):
+            for xcoord in range(xrange+1):                    
                 idx += 1
                 try:
                     table_coords_to_node[(xcoord, ycoord)]
@@ -171,44 +173,41 @@ class TableOCR():
                 # Extract cell from image
                 img_cell = self.extractCell(imgThreshInv, contour_analyzer, (xcoord, ycoord),
                                  idx = idx, save = debug, fecha = fecha)
-                # Record cell coordinates in key and whether its empty or not as val
-                spaces[(xcoord, ycoord)] = self.cellIsEmpty(img_cell)
-
+                # Get the law been voted for/against
+                if ycoord == 0: asunto = self.OCR(img_cell) 
+                # Record cell coordinates in key and whether its empty or not as val if it belongs to congressperson
+                if ycoord >= 4: spaces[(xcoord, ycoord)] = self.cellIsEmpty(img_cell) 
 
         # Sort coordinates lexicographically by y and then x (doesn't work other way around)
         spacs = sorted(spaces.keys(), key = lambda x: (x[1], x[0]))
         # Hardwire x-coordinate values where Si, No, Abstencion cells always are
         si, no, abst = (3, 10), (4, 11), (5, 12)
-        # Hardwire x-coordinate values where congresista names are (2 columns' xcoord)
-        congresista_coord = (2, 9)
-        # Initialize dict to save congresspeople's votes and keep count of them
-        votos = dict()
-        congresistas = dict()
+        # Hardwire x-coordinate values where congresista names and partido names are (2 columns' xcoord)
+        congresista_coord, partido_coord = (2, 9), (1, 8)
+        # Initialize dict to save congresspeople's names, votes and parties and keep count of them
+        votos, congresistas, partidos = dict(), dict(), dict()
         congresista = 0
         # h =   # height of cell
         # w =   # width of cell
         #Iterate over coordinates
         for xcoord, ycoord in spacs:
+            # Get congressperson voting
             if xcoord == congresista_coord[0] or xcoord == congresista_coord[1]:
-                # print(xcoord, ycoord)
-                # print('FOUND A CONGRESISTA! ')
+                # Extract image from cell
+                img_cell = self.extractCell(imgThreshInv, contour_analyzer, (xcoord, ycoord),
+                                 idx = idx, save = debug, fecha = fecha)
+                # OCR it
+                congresistas[congresista] = self.OCR(img_cell)
+            # Get congresspersons party
+            elif xcoord == partido_coord[0] or xcoord == partido_coord[1]:
                 # extract image from cell
                 img_cell = self.extractCell(imgThreshInv, contour_analyzer, (xcoord, ycoord),
                                  idx = idx, save = debug, fecha = fecha)
-
-                # extract text from image
-                kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (2, 1))
-                border = cv2.copyMakeBorder(img_cell,2,2,2,2,   cv2.BORDER_CONSTANT,value=[255,255])
-                resizing = cv2.resize(border, None, fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
-                dilation = cv2.dilate(resizing, kernel,iterations=1)
-                erosion = cv2.erode(dilation, kernel,iterations=1)
-                out = pytesseract.image_to_string(erosion)
-                print(out)
-                congresistas[congresista] = out
-
+                # OCR it
+                partidos[congresista] = self.OCR(img_cell)
 
             # If x-coord is on si and cell is not empty -> congressperson voted SI
-            if xcoord == si[0] or xcoord == si[1]:
+            elif xcoord == si[0] or xcoord == si[1]:
                 if not spaces[(xcoord, ycoord)]:
                     votos[congresista] = 'SI'
                     congresista += 1
@@ -237,7 +236,7 @@ class TableOCR():
                     except KeyError:
                         votos[congresista] = 'LICENCIA/AUSENTE'
                         congresista += 1
-        return congresistas, votos
+        return congresistas, votos, partidos, asunto
 
 
 
@@ -255,15 +254,13 @@ if __name__ == '__main__':
     # print(len(votos_ley))
     # print(Counter(votos_ley.values()))
 
-    #%%#
+    
     # =============================================================================
     # Test 2
     # =============================================================================
 
     T = TableOCR()
     pdfsCongreso = [f for f in os.listdir('./pdfs') if f.endswith('.pdf')]
-
-    # fechas = ['02-11-20']
     fechas = []
     for file in pdfsCongreso:
         print(file)
@@ -272,32 +269,35 @@ if __name__ == '__main__':
 
     votos = {}
     for fecha in fechas:
-        print('fecha (loop): ', fecha)
+        print('fecha (loop): ', fecha, '\n\n')
         os.chdir(f'imgs_{fecha}')
-        print('\n\n')
-        print(f'fecha: {fecha}')
-        print('\n')
+        print(f'fecha: {fecha}', '\n')
         pagina = 1
         # print(os.path.abspath(f) for f in os.listdir())
         # for PDFCongreso in [os.path.abspath(f) for f in os.listdir()]:
         for PDFCongreso in [os.path.abspath(f) for f in os.listdir() if f.endswith('.jpg')]:
             # print(PDFCongreso)
-            congresistas, votos_ley = T.extraerVotos(PDFCongreso, debug = False, fecha = (fecha, pagina))
+            congresistas, votos_ley, partidos, asunto = T.extraerVotos(PDFCongreso, debug = False, fecha = (fecha, pagina))
             votos[fecha, pagina] = votos_ley
-            print(congresistas)
-            print(votos)
-            print(f'ley: {PDFCongreso[-5:-4]}')
-            print('Num congresistas', len(votos_ley))
-            print(votos_ley)
-            print(Counter(votos_ley.values()))
-            print('\n\n')
-
+            print(f'ley: {PDFCongreso[-5:-4]}', asunto, '\n')
+            print('Num congresistas', len(votos_ley), '\n\n')
+            print('Congresistas', '\n')
+            print(congresistas, '\n')
+            print('Votos', '\n')
+            print(votos_ley, '\n')
+            print('Partidos ', '\n')
+            print(partidos, '\n')
+            print('Resumen', '\n')
+            print(Counter(votos_ley.values()),'\n\n')
             # output table to csv
             # assert len(votos) == len(congresistas)   #TO DO: address cases where len != len
-            df = pd.DataFrame(list(congresistas.items()),columns = ['index','congresistas'])
+            df = pd.DataFrame(list(congresistas.items()), columns = ['index','congresistas'])
             df['votos'] = df['index'].map(votos_ley)
-            df['congresistas'] = df['congresistas'].apply(lambda x: x.replace('\n', ''))
+            df['congresistas'] = df['congresistas'].apply(lambda x: x.replace('\n', ''))                
+            df['partidos'] = df['index'].map(partidos)
+            df['asunto'] = np.array([asunto]*len(df.index))
+            df['fecha'] =  np.array([fecha]*len(df.index))         
             df.to_csv(f'../votos_csv/{fecha}_ley_{PDFCongreso[-5:-4]}.csv', index=False)
-
+            print('CSV Saved')
             pagina +=1
         os.chdir('..')    # TO DO: needs updating
