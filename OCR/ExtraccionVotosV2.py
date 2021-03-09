@@ -77,6 +77,15 @@ def OTR(filename):
     # End of 2nd pass. Continue regularly
     contour_analyzer.compute_table_coordinates(xthresh=8., ythresh=20.)
     contour_analyzer.draw_table_coord_cell_hulls(img, xscale=.8, yscale=.8)
+    try:
+        os.mkdir('fingerprints')
+    except FileExistsError:
+        pass
+
+    #### FECHA NO FUNCIONA _ CAMBIAR ESTO
+    fecha = filename.split('/')[-2]
+    num_ley = filename.split('/')[-1][:-4]
+    cv2.imwrite('fingerprints/'+ fecha + '_' + num_ley + '.png', img)
     return imgThreshInv, contour_analyzer
 
 #%%# Object
@@ -112,11 +121,11 @@ class W():
         # Check proportion of white pixels in each cell
         return True if np.mean(self.crop(img_sect, .25)) > 254 else False
     
-    def OCR(self, img_sect):
+    def OCR(self, img_sect, by = 0):
         '''
         Uses tesseract to read strings from a binarized image. Returns: string
         '''
-        crop_img = self.crop(img_sect, 0)
+        crop_img = self.crop(img_sect, by)
         kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (2, 1))
         border = cv2.copyMakeBorder(crop_img, 2, 2, 2, 2, cv2.BORDER_CONSTANT, value= [255, 255])
         resizing = cv2.resize(border, None, fx = 2, fy = 2, interpolation=cv2.INTER_CUBIC)
@@ -194,11 +203,12 @@ class W():
         # get all congresistas ids ordered
         ids = sorted(pd.unique(df.congresista), key = lambda x: (x[0], -x[1]))
         votos = dict()
-        num = 130
+        num = 130 # TODO: make numbering easier with enumerate - start from left top left
         for cong in ids:    
             # each row corresponds to a cell from a congresista
             df_row = df.iloc[np.where((df.congresista == cong))]
             cols = len(df_row.index)
+            # might be more efficient if we get img_sect and empty here  for 1st 3 rows
             # if theres 4 cells -> was out
             if cols == 4:
                 votos[num] = 'LICENCIA/AUSENTE'
@@ -206,7 +216,7 @@ class W():
             elif cols == 6:
                 empties = tuple(df_row['empty'])
                 # print('\n', num, cong, '\n', empties, '\n')
-                if sum(empties) > 1: # if less than 1 is empty, somethings wrong
+                if sum(empties) > 1: # if 1 or less is empty, somethings wrong
                     if empties[-1] == False: # print('ABSTENCION')
                         votos[num] = 'ABSTENCION'                       
                     elif empties[-2] == False: # print('NO')
@@ -217,6 +227,8 @@ class W():
                         votos[num] = 'NO VOTO'                      
                 else: #print('np.nan')
                     votos[num] = np.nan
+            else:
+                votos[num] = np.nan
             num -= 1 
         return votos
     
@@ -230,8 +242,13 @@ class W():
         # second row in df corresponds to partido cell and third to name
         for cong in ids:    
             df_row = df.iloc[np.where((df.congresista == cong))]
-            partidos[congresista] = w.OCR(df_row.iloc[1].img_sect)
-            congresistas[congresista] = w.OCR(df_row.iloc[2].img_sect)
+            cols = len(df_row.index)
+            if cols == 4 or cols == 6:
+                partidos[congresista] = w.OCR(df_row.iloc[1].img_sect, by = .15) # cropping a bit helps
+                congresistas[congresista] = w.OCR(df_row.iloc[2].img_sect) 
+            else:
+                partidos[congresista] = np.nan
+                congresistas[congresista] = np.nan
             congresista -= 1
         return congresistas, partidos
 
@@ -280,7 +297,8 @@ if __name__ == '__main__':
         # print(os.path.abspath(f) for f in os.listdir())
         # for PDFCongreso in [os.path.abspath(f) for f in os.listdir()]:
         for PDFCongreso in [os.path.abspath(f) for f in os.listdir() if f.endswith('.jpg')]:
-            print(f'ley: {PDFCongreso[-5:-4]}', '\n')  # update this for doble digit laws
+            print('\n\n', f'ley: {PDFCongreso[-5:-4]}', '\n')  # update this for doble digit laws
+            print(f'filename: {PDFCongreso}', '\n')
             w = W(PDFCongreso)
             df, asunto = w.createDf()
             df = w.fixDf(df)
@@ -298,14 +316,20 @@ if __name__ == '__main__':
             
             df = pd.DataFrame(list(congresistas.items()), columns = ['index', 'congresistas'])
             df['votos'] = df['index'].map(votos_ley)
-            df['congresistas'] = df['congresistas'].apply(lambda x: x.replace('\n', ''))                
             df['partidos'] = df['index'].map(partidos)
             df['asunto'] = np.array([asunto]*len(df.index))
-            df['fecha'] =  np.array([fecha]*len(df.index))         
+            df['fecha'] =  np.array([fecha]*len(df.index))
+
+            df['congresistas'] = df['congresistas'].apply(lambda x: x.replace('\n', '') if type(x) == str else x)              
+            df['partidos'] = df['partidos'].apply(lambda x: x.replace('\n', '') if type(x) == str else x)       
+            df['asunto'] = df['asunto'].apply(lambda x: x.replace('\n', '') if type(x) == str else x)       
+
             df.to_csv(f'../votos_csv/{fecha}_ley_{PDFCongreso[-5:-4]}.csv', index=False)
             print('CSV Saved')
+            print('_________________________________________________')
             pagina += 1
+            
         os.chdir('..')    # TODO: needs updating
         
     end = time.clock()
-    print(f'Took {end - start} for {pagina} pages')
+    print(f'Took {end - start} minutes to process {pagina} page(s)') ## around 34 now
