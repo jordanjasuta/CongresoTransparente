@@ -1,0 +1,500 @@
+<!-- This page was built by Doug Billings and Jordan Fischer -->
+
+<!DOCTYPE html>
+<html id="page">
+<head>
+<meta charset="UTF-8">
+<title>CONGRESO TRANSPARENTE</title>
+
+<link rel="stylesheet" href="static/bootstrap.min.css">
+<script src="static/jquery.min.js"></script>
+<script src="static/bootstrap.min.js"></script>
+
+
+
+<script type="text/javascript">
+
+function extract_text() {
+   var url = location.origin + "/upload?file=" + document.getElementById("myFile").files[0].name;
+   console.log(url)
+   var xhttp = new XMLHttpRequest();
+   console.log("this is location.origin:", location.origin);
+   xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+         // console.log(this.responseText);
+         document.getElementById("description").innerHTML = this.responseText;
+      }
+   };
+   xhttp.open("GET", url, true);
+   xhttp.send();
+}
+
+
+function run_model() {
+   var url = location.origin + "/model?text=" + document.getElementById("description").value;
+   console.log(url)
+   var xhttp = new XMLHttpRequest();
+   console.log("this is location.origin:", location.origin);
+   xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+         console.log(this.responseText);
+         document.getElementById("displayresults").innerHTML = this.responseText;
+      }
+   };
+   xhttp.open("GET", url, true);
+   xhttp.send();
+}
+
+
+function get_keywords() {
+   var url = location.origin + "/keywords?text=" + document.getElementById("description").value;
+   console.log(url)
+   var xhttp = new XMLHttpRequest();
+   console.log("this is location.origin:", location.origin);
+   xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+         console.log(this.responseText);
+         document.getElementById("displaykeywords").innerHTML = this.responseText;
+      }
+   };
+   xhttp.open("GET", url, true);
+   xhttp.send();
+}
+
+
+function make_pdf_api() {
+   var url = location.origin + "/pdf" ;
+   console.log(url)
+   var xhttp = new XMLHttpRequest();
+   xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+         var file = new Blob([this.responseText], {type: 'application/pdf'});
+         var fileURL = URL.createObjectURL(file);
+         window.open(fileURL);
+      }
+   };
+   // Report content:
+   var payload= "<h1> THIS IS A NEW REPORT";
+   payload += "</h1>";
+   payload += "<h3> It shows the text extracted from the uploaded document and run through the dummy model (which just makes text lowercase)";
+   // payload += document.getElementById("myFile").files[0].name;
+   payload += " in the space below: </h3>"
+   payload += "<br>";
+   // payload += document.getElementById("description").value
+   payload += document.getElementById("displayresults").innerHTML
+   xhttp.open("POST", url, true);
+   xhttp.send(payload);
+}
+
+
+</script>
+
+
+<style>
+body {
+   background-color: rgb(255, 255, 255);
+   color: rgb(27, 27, 27);
+}
+h1 {
+   color: rgb(70, 70, 70);
+}
+h2 {
+   color: rgb(32, 32, 32);
+}
+a {
+   color: #0056b3;
+}
+input {
+   background-color: rgb(240, 239, 239);
+   color: rgb(0, 0, 0);
+}
+textarea {
+   background-color: rgb(240, 239, 239);
+   color: black;
+}
+.topnav {
+  background-color: #0056b3;
+  color: white;
+  overflow: hidden;
+  padding: 10px;
+  justify-content: space-between;
+  vertical-align: center;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+}
+
+@media (min-width: 1366px) {
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10vh auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+	}
+}
+
+input {
+    display: block;
+}
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 60% auto;
+  padding-bottom: 15px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 45% 10% 45%;
+  padding-bottom: 15px;
+}
+
+.grid-container-partidos {
+  display: grid;
+  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+  padding-bottom: 15px;
+}
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: ##F0F0F0;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #D8D8D8;
+  border: none;
+  outline: none;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+
+#Inicio {background-color: white;}
+#Leyes {background-color: #008CBA;}
+#Partidos {background-color: #F4D03F;}
+#Distritos {background-color: orange;}
+
+.button {
+  border: none;
+  outline: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width:250px;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+  outline: none;
+}
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+  border: 2px solid #008CBA;
+  outline: none;
+}
+.button1:focus {
+  background-color: #008CBA;
+  color: white;
+  border: 2px solid #008CBA;
+  outline: none;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #F4D03F;
+  outline: none;
+}
+.button2:hover {
+  background-color: #F4D03F;
+  color: white;
+  border: 2px solid #F4D03F;
+  outline: none;
+}
+.button2:focus {
+  background-color: #F4D03F;
+  color: white;
+  border: 2px solid #F4D03F;
+  outline: none;
+}
+
+.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid orange;
+  outline: none;
+}
+.button3:hover {
+  background-color: orange;
+  color: white;
+  border: 2px solid orange;
+  outline: none;
+}
+.button3:focus {
+  background-color: orange;
+  color: white;
+  border: 2px solid orange;
+  outline: none;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+  outline: none;
+}
+.button4:hover {
+  background-color: red;
+  color: white;
+  border: 2px solid red;
+  outline: none;
+}
+.button4:focus {
+  background-color: red;
+  color: white;
+  border: 2px solid red;
+  outline: none;
+}
+
+
+</style>
+</head>
+
+<body>
+
+  <button class="tablink" onclick="openPage('Inicio', this, 'white')" id="defaultOpen">Inicio</button>
+  <button class="tablink" onclick="openPage('Leyes', this, '#008CBA')">Leyes</button>
+  <button class="tablink" onclick="openPage('Partidos', this, '#F4D03F')" id="defaultOpen">Partidos</button>
+  <button class="tablink" onclick="openPage('Distritos', this, 'orange')">Distritos Electorales</button>
+
+  <div id="Inicio" class="tabcontent">
+    <div class="grid-container2" style="padding: 10px; padding-left: 10%">
+      <div style="justify-content: center;">
+        <h3 style="text-align: center;">Temas</h3>
+        <br>
+        <button class="button button1">Educación</button><br>
+        <button class="button button2">Medioambiente</button><br>
+        <button class="button button3">Salud pública</button><br>
+        <button class="button button4">Derechos laborales</button><br>
+        <button class="button button1">Más...</button><br>
+      </div>
+      <div></div>
+      <div style="padding: 50px">
+        <h3>¿Qué es Congreso Transparente?</h3>
+        <br>
+        Lorem ipsum dolor sit amet consectetur, adipiscing elit aliquet arcu porta fames.
+        Lorem ipsum dolor sit amet consectetur, adipiscing elit aliquet arcu porta fames.
+        Lorem ipsum dolor sit amet consectetur, adipiscing elit aliquet arcu porta fames.
+        Lorem ipsum dolor sit amet consectetur, adipiscing elit aliquet arcu porta fames.
+        <br><br>
+        <button class="button button2">Conoce más</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="Leyes" class="tabcontent">
+    <h3>¿Cómo funciona la ley en el Perú?</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit aliquet arcu porta. Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur, adipiscing elit aliquet arcu porta fames adipiscing elit aliquet arcu porta fames.
+    Lorem ipsum dolor sit amet consectetur, adipiscing elit aliquet arcu porta fames.</p>
+  </div>
+
+  <div id="Partidos" class="tabcontent">
+    <h3>Partidos Activos</h3>
+    <p>Selecciona un partido</p>
+    <br>
+    <div class="grid-container-partidos" style="padding: 10px;">
+      <div>
+        <input type="image" style="width: 85%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_Partido_Morado.png" />
+      </div>
+      <div>
+        <input type="image" style="width: 85%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Logo_juntos_por_el_Peru.svg/1920px-Logo_juntos_por_el_Peru.svg.png" />
+      </div>
+      <div>
+        <input type="image" style="width: 85%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Acci%C3%B3n_Popular.png" />
+      </div>
+      <div>
+        <input type="image" style="width: 85%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Alianza_para_el_Progreso_Peru.svg/1920px-Alianza_para_el_Progreso_Peru.svg.png" />
+      </div>
+      <div>
+        <input type="image" style="width: 85%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Logo-frente-amplio-Peru-alt.svg/1200px-Logo-frente-amplio-Peru-alt.svg.png" />
+      </div>
+      <div>
+        <input type="image" style="width: 85%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Fuerza_popular.svg/1200px-Fuerza_popular.svg.png" />
+      </div>
+      <div>
+        <input type="image" style="width: 85%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/APRA_Peru_logo.svg/1200px-APRA_Peru_logo.svg.png" />
+      </div>
+      <div>
+        <input type="image" style="width: 85%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Logo_Partido_Democr%C3%A1tico_Somos_Per%C3%BA.svg" />
+      </div>
+      <div>
+        <input type="image" style="width: 85%; height: 85%;" src="" />
+      </div>
+    </div>
+  </div>
+
+  <div id="Distritos" class="tabcontent">
+    <h3>Distritos electorales</h3>
+    <p>Selecciona un distrito electoral</p>
+    <p>[INSERT MAP HERE]</p>
+  </div>
+
+<div class="topnav">
+   <!-- <img src="static/ibm_logo_white.png" alt="IBM logo" width="90px" style="float:left;vertical-align:center;margin-top:7px">  -->
+   CONGRESO TRANSPARENTE
+</div>
+
+<div style="margin-left: 20px; margin-top: 10px; margin-right: 20px;">
+      <!-- <br> -->
+      <div >
+         <h5 align="center"> Algún texto aquí para describir lo que hace el sitio web? Alternativamente, algún tagline/motto.</h5>
+         <br>
+      </div>
+      <div>
+        <form action="/action_page.php">
+        <label for="congresista">Eligir congresista:</label>
+        <select name="cars" id="cars">
+          <option value=""></option>
+          <option value="marita_arevalo_herrera">Marito Arévalo Herrera</option>
+          <option value="miguel_antonio_castro_grandez">Miguel Antonio Castro Grandez</option>
+          <option value="opel">DOMINGUEZ	HERRERA	CARLOS ALBERTO</option>
+          <option value="audi">MELGAREJO	PAUCAR	MARIA CRISTINA</option>
+        </select>
+
+        <label for="partido">Eligir partido:</label>
+        <select name="cars" id="cars">
+          <option value="volvo">FUERZA POPULAR</option>
+          <option value="saab">ALIANZA PARA EL PROGRESO DEL PERU</option>
+          <option value="opel">EL FRENTE AMPLIO POR JUSTICIA, VIDA Y LIBERTAD</option>
+          <option value="audi">PERUANOS POR EL KAMBIO</option>
+        </select>
+
+        <label for="distrito">Eligir distrito electoral:</label>
+        <select name="cars" id="cars">
+          <option value="volvo">AMAZONAS</option>
+          <option value="saab">ANCASH</option>
+          <option value="opel">APURIMAC</option>
+          <option value="audi">AREQUIPA</option>
+        </select>
+
+        <input type="submit" value="Submit">
+      </form>
+      </div>
+      <div class="grid-container" style="padding: 10px">
+      <div>
+         <span style="vertical-align:top; color:rgb(70, 70, 70);font-size:120%;"><b>Text to be classified:</b></span>
+      </div>
+      <div class="">
+         <textarea placeholder="Enter text to be classified here" id="description" rows=10 cols=150></textarea>
+      </div>
+      <div style="padding-left: 20px">
+         <input class="btn btn-primary" value="Classify" onclick="run_model()" style="cursor: pointer;">
+         <br><br>
+         <input class="btn btn-primary" value="Get Keywords" onclick="get_keywords()" style="cursor: pointer;">
+      </div>
+      <div><span style="color:rgb(70, 70, 70); font-size:120%;"><b>Classification: </b></span></div>
+      <div class="" id="displayresults" style="font-size:120%;"> </div>
+      <div></div>
+      <div><span style="color:rgb(70, 70, 70); font-size:120%;"><b>Annotated Text: </b></span></div>
+      <div class="" id="displaykeywords" style="font-size:120%;"> </div>
+      <div></div>
+
+
+      </div>
+
+      <br>
+      <br>
+<br>
+<!--
+      <input class="btn btn-primary" value="Download PDF of results" onclick="make_pdf_api()" style="cursor: pointer;">
+-->
+<hr>
+
+
+<script>
+
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+
+
+
+   var modalBtns = [...document.querySelectorAll(".button")];
+modalBtns.forEach(function(btn){
+  btn.onclick = function() {
+    var modal = btn.getAttribute('data-modal');
+    document.getElementById(modal).style.display = "block";
+  }
+});
+var closeBtns = [...document.querySelectorAll(".close")];
+closeBtns.forEach(function(btn){
+  btn.onclick = function() {
+    var modal = btn.closest('.modal');
+    modal.style.display = "none";
+  }
+});
+window.onclick = function(event) {
+  if (event.target.className === "modal") {
+    event.target.style.display = "none";
+  }
+}
+
+
+</script>
+<br>
+
+</body>
+</html>
