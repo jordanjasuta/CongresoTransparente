@@ -14,6 +14,7 @@ import warnings
 warnings.simplefilter(action='ignore', category= Warning)
 import pytesseract
 from pdf2image import convert_from_path
+from tabulate import tabulate
 try: 
     pytesseract.pytesseract.tesseract_cmd = r'/usr/local/Cellar/tesseract/4.1.1/bin/tesseract'   
 except: pass
@@ -201,7 +202,8 @@ class W():
         If rightmost cell not empty -> abstencion, second righmost -> No, third rightmost -> Si
         '''
         # get all congresistas ids ordered
-        ids = sorted(pd.unique(df.congresista), key = lambda x: (x[0], -x[1]))
+        #ids = sorted(pd.unique(df.congresista), key = lambda x: (x[0], x[1]))
+        ids = sorted(pd.unique(df.congresista), key = lambda x: (x[0], -x[1]), reverse = True)
         votos = dict()
         num = 130 # TODO: make numbering easier with enumerate - start from left top left
         for cong in ids:    
@@ -236,7 +238,9 @@ class W():
         '''
         Second column corresponds to congresspersons' partido, third to name
         '''
-        ids = sorted(pd.unique(df.congresista), key = lambda x: (x[0], -x[1]))
+        #ids = sorted(pd.unique(df.congresista), key = lambda x: (x[0], -x[1]))
+        ids = sorted(pd.unique(df.congresista), key = lambda x: (x[0], -x[1]), reverse = True)
+
         congresistas, partidos = dict(), dict()
         congresista = 130
         # second row in df corresponds to partido cell and third to name
@@ -259,20 +263,20 @@ class W():
 
 """
 
-# filename = '/Users/oscarrodriguez/Desktop/tablas/imgs_04-06-2020/ley_12.jpg'
+filename = '/Users/oscarrodriguez/Desktop/CongresoTransparente/OCR/imgs_28-12-20/ley_10.jpg'
 
-# w = W(filename)
-# df = w.createDf()
-# df = w.fixDf(df)
-# votos = w.extraerVotos(df)
-# congresistas, partidos = w.extraerNomPar(df)
-# print('Resumen', '\n')
-# print('Num congresistas', len(votos), '\n\n')
-# print(Counter(votos.values()),'\n\n')
-# print(filename)
+w = W(filename)
+df, asunto = w.createDf()
+df = w.fixDf(df)
+votos_ley = w.extraerVotos(df)
+congresistas, partidos = w.extraerNomPar(df)
+print('Resumen', '\n')
+print('Num congresistas', len(votos), '\n\n')
+print(Counter(votos.values()),'\n\n')
+print(filename)
 
-# ([(k, v) for k, v in votos.items() if k < 66])[::-1]
-# ([(k, v) for k, v in votos.items() if k > 65])[::-1]
+([(k, v) for k, v in votos.items() if k < 66])[::-1]
+([(k, v) for k, v in votos.items() if k > 65])[::-1]
 
 #%%# Test code 2
 
@@ -285,7 +289,7 @@ if __name__ == '__main__':
     fechas = []
     for file in pdfsCongreso:
         print(file)
-        fecha = pdf2Image('pdfs/'+file, 'imgs')
+        fecha = pdf2Image('pdfs/' + file, 'imgs')
         fechas.append(fecha)
     print('Finished pdfToImage', '\n\n')
 
@@ -297,39 +301,34 @@ if __name__ == '__main__':
         # print(os.path.abspath(f) for f in os.listdir())
         # for PDFCongreso in [os.path.abspath(f) for f in os.listdir()]:
         for PDFCongreso in [os.path.abspath(f) for f in os.listdir() if f.endswith('.jpg')]:
-            print('\n\n', f'ley: {PDFCongreso[-5:-4]}', '\n')  # update this for doble digit laws
-            print(f'filename: {PDFCongreso}', '\n')
             w = W(PDFCongreso)
             df, asunto = w.createDf()
             df = w.fixDf(df)
             votos_ley = w.extraerVotos(df)
             congresistas, partidos = w.extraerNomPar(df) 
-            print(f'Asunto: {asunto}', '\n')           
-            print('Congresistas', '\n', congresistas, '\n')
-            print('Votos', '\n', votos_ley, '\n')
-            print('Partidos ', '\n', partidos, '\n')
-            print('Resumen', '\n', 'Num congresistas', len(votos_ley), '\n\n')
-            print(Counter(votos_ley.values()),'\n\n')
-            
+
             # output table to csv
-            # assert len(votos) == len(congresistas)   #TO DO: address cases where len != len
-            
+            # TODO: address cases where len(votos) != len(congresistas)
             df = pd.DataFrame(list(congresistas.items()), columns = ['index', 'congresistas'])
             df['votos'] = df['index'].map(votos_ley)
             df['partidos'] = df['index'].map(partidos)
             df['asunto'] = np.array([asunto]*len(df.index))
             df['fecha'] =  np.array([fecha]*len(df.index))
 
-            df['congresistas'] = df['congresistas'].apply(lambda x: x.replace('\n', '') if type(x) == str else x)              
-            df['partidos'] = df['partidos'].apply(lambda x: x.replace('\n', '') if type(x) == str else x)       
-            df['asunto'] = df['asunto'].apply(lambda x: x.replace('\n', '') if type(x) == str else x)       
-
-            df.to_csv(f'../votos_csv/{fecha}_ley_{PDFCongreso[-5:-4]}.csv', index=False)
-            print('CSV Saved')
-            print('_________________________________________________')
-            pagina += 1
+            for column in 'congresistas', 'partidos', 'asunto':
+                df[column] = df[column].apply(lambda x: x.replace('\n', '') if type(x) == str else x)     
+            df.to_csv(f'../votos_csv/{fecha}_ley_{PDFCongreso.split('.')[0].split('_')[-1]}.csv', index = False)
             
+            print(f'filename: {PDFCongreso}', f'ley: {PDFCongreso.split('.')[0].split('_')[-1]}', f'Asunto: {asunto}',
+            'Tablas votos', tabulate(df[['congresistas', 'partidos', 'votos']], headers = 'keys', tablefmt = 'psql'),
+            'Resumen', f'Num congresistas: {len(votos_ley)}', Counter(votos_ley.values()), 
+            'CSV saved', '- . ' * 50, sep = '\n''\n', end = '\n''\n''\n''\n')
+
+            pagina += 1
+
+        print('# - ' * 200)
         os.chdir('..')    # TODO: needs updating
         
     end = time.clock()
-    print(f'Took {end - start} minutes to process {pagina} page(s)') ## around 34 now
+    print(f'Took {end - start} minutes to process {pagina - 1} page(s)', '\n''\n', 
+    f'avg time/pg: {(end - start)/(pagina - 1)}') 
