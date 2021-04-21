@@ -157,6 +157,14 @@ textarea {
   padding-bottom: 15px;
 }
 
+.grid-container3 {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  align-self: center;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
 .grid-container-partidos {
   display: grid;
   grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
@@ -167,7 +175,7 @@ textarea {
 
 /* Set height of body and the document to 100% */
 body, html {
-  height: 100%;
+  height: 200%;
   margin: 0;
   font-family: Arial;
 }
@@ -182,7 +190,7 @@ body, html {
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
-  width: 25%;
+  width: 20%;
 }
 
 .tablink:hover {
@@ -196,6 +204,7 @@ body, html {
   color: black;
   display: none;
   padding: 100px 20px;
+  padding-left: 30px;
   height: 100%;
   border: none;
   outline: none;
@@ -205,6 +214,7 @@ body, html {
 #Leyes {background-color: #008CBA;}
 #Partidos {background-color: #F4D03F;}
 #Distritos {background-color: orange;}
+#Congresistas {background-color: red;}
 #mapid { height: 180px; }
 
 .button {
@@ -221,6 +231,7 @@ body, html {
   cursor: pointer;
   width:250px;
 }
+
 
 .button1 {
   background-color: white;
@@ -298,6 +309,69 @@ body, html {
   outline: none;
 }
 
+/* The container must be positioned relative: */
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  color: black;
+  background-color: white;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: black;
+  padding: 8px 8px 8px 8px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  color: black;
+  background-color: white;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
 
 </style>
 </head>
@@ -308,6 +382,7 @@ body, html {
   <button class="tablink" onclick="openPage('Leyes', this, '#008CBA')">Leyes</button>
   <button class="tablink" onclick="openPage('Partidos', this, '#F4D03F')" id="defaultOpen">Partidos</button>
   <button class="tablink" onclick="openPage('Distritos', this, 'orange')">Distritos Electorales</button>
+  <button class="tablink" onclick="openPage('Congresistas', this, 'red')">Congresistas</button>
 
   <div id="Inicio" class="tabcontent">
     <div class="grid-container2" style="padding: 10px; padding-left: 10%">
@@ -329,7 +404,8 @@ body, html {
         Lorem ipsum dolor sit amet consectetur, adipiscing elit aliquet arcu porta fames.
         Lorem ipsum dolor sit amet consectetur, adipiscing elit aliquet arcu porta fames.
         <br><br>
-        <button class="button button2">Conoce más</button>
+        <button class="button button2">Conoce más</button><br>
+        <button class="button button3">Metodología</button>
       </div>
     </div>
   </div>
@@ -337,41 +413,126 @@ body, html {
   <div id="Leyes" class="tabcontent">
     <h3>¿Cómo funciona la ley en el Perú?</h3>
     <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit aliquet arcu porta. Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur, adipiscing elit aliquet arcu porta fames adipiscing elit aliquet arcu porta fames.
-    Lorem ipsum dolor sit amet consectetur, adipiscing elit aliquet arcu porta fames.</p>
+    Lorem ipsum dolor sit amet consectetur, adipiscing elit aliquet arcu porta fames.</p><br>
+    <div>
+      <form action="/action_page.php">
+        <div class="grid-container3">
+          <div class="custom-select" style="height:50px; width:70%;">
+            <select>
+              <option value="0">Eligir ley por tema:</option>
+              <option value="1">Educación</option>
+              <option value="2">Salud pública</option>
+              <option value="3">Derecho constitucional</option>
+              <option value="4">Derecho civil</option>
+              <option value="5">Derecho de familia</option>
+              <option value="6">Derecho comercial</option>
+              <option value="7">Derecho penal</option>
+              <option value="8">Derecho ambiental</option>
+              <option value="9">Derecho agrario o pesquero</option>
+              <option value="10">Contratación pública</option>
+              <option value="11">Regulación de mercados</option>
+              <option value="12">Organización territorial del poder</option>
+              <option value="13">Derecho laboral</option>
+              <option value="14">Derecho internacional público</option>
+            </select>
+          </div>
+          <div class="custom-select" style="height:50px; width:70%;">
+            <!-- <input type="date" id="fecha" name="fecha"> -->
+            <select>
+              <option value="0">Eligir ley por fecha:</option>
+              <option value="1">2021</option>
+              <option value="2">2020</option>
+              <option value="3">2019</option>
+              <option value="4">2018</option>
+              <option value="5">2017</option>
+              <option value="6">2016</option>
+              <option value="7">2015</option>
+              <option value="8">2014</option>
+              <option value="9">2013</option>
+              <option value="10">2012</option>
+              <option value="11">2011</option>
+              <option value="12">2010</option>
+            </select>
+          </div>
+          <div class="custom-select" style="height:50px; width:70%;">
+            <select>
+              <option value="0">Eligir ley por partido asociado:</option>
+              <option value="1">Partido Morado</option>
+              <option value="2">Representados en el Parlamento</option>
+              <option value="3">Acción Popular</option>
+              <option value="4">Alianza para el Progreso</option>
+              <option value="5">Frente Popular Agrícola del Perú - FREPAP</option>
+              <option value="6">Fuerza Popular</option>
+              <option value="7">Podemos Perú</option>
+              <option value="8">Unión por el Perú</option>
+              <option value="9">El Frente Amplio por Justicia, Vida y Libertad</option>
+              <option value="10">Partido Democrático Somos Perú</option>
+              <option value="11">Victoria Nacional</option>
+              <option value="12">Partido Político Nacional Perú Libre</option>
+              <option value="13">Avanza País - Partido de Integración Social</option>
+              <option value="14">Juntos por el Perú</option>
+              <option value="15">Renovación Popular</option>
+              <option value="16">Nombre oficial</option>
+              <option value="17">Democracia Directa</option>
+              <option value="18">Partido Aprista Peruano</option>
+              <option value="20">Partido Nacionalista Peruano</option>
+              <option value="21">Partido Popular Cristiano - PPC</option>
+              <option value="22">Partido Político Contigo</option>
+              <option value="23">Perú Nación</option>
+              <option value="24">Perú Patria Segura</option>
+              <option value="25">Renacimiento Unido Nacional</option>
+              <option value="26">Todos por el Perú</option>
+              <option value="27">Vamos Perú</option>
+              <option value="28">Nuevo Perú, por Democracia, Soberanía y Justicia</option>
+              <option value="29">Partido Democrático Perú Unido</option>
+              <option value="30">Partido Frente de la Esperanza 2021</option>
+              <option value="31">Partido Patriótico del Perú</option>
+            </select>
+          </div>
+          <div></div>
+          <div>
+            <br><br>
+            <input type="checkbox" id="PL" name="PL" value="PL">
+            <label for="PL">Incluir propuestas de ley</label>
+            <input type="submit" value="Submit">
+          </div>
+
+          </form>
+        </div>
+    </div>
+
+
   </div>
 
   <div id="Partidos" class="tabcontent">
     <h3>Partidos Activos</h3>
-    <p>Selecciona un partido</p>
+    <p>Selecciona un partido para ver su historial de congresistas, proyectos de ley propuestas, y votos en el congreso.</p>
     <br>
     <div class="grid-container-partidos" style="padding: 10px;">
-      <div>
-        <input type="image" style="width: 85%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_Partido_Morado.png" />
-      </div>
-      <div>
-        <input type="image" style="width: 85%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Logo_juntos_por_el_Peru.svg/1920px-Logo_juntos_por_el_Peru.svg.png" />
-      </div>
-      <div>
-        <input type="image" style="width: 85%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Acci%C3%B3n_Popular.png" />
-      </div>
-      <div>
-        <input type="image" style="width: 85%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Alianza_para_el_Progreso_Peru.svg/1920px-Alianza_para_el_Progreso_Peru.svg.png" />
-      </div>
-      <div>
-        <input type="image" style="width: 85%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Logo-frente-amplio-Peru-alt.svg/1200px-Logo-frente-amplio-Peru-alt.svg.png" />
-      </div>
-      <div>
-        <input type="image" style="width: 85%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Fuerza_popular.svg/1200px-Fuerza_popular.svg.png" />
-      </div>
-      <div>
-        <input type="image" style="width: 85%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/APRA_Peru_logo.svg/1200px-APRA_Peru_logo.svg.png" />
-      </div>
-      <div>
-        <input type="image" style="width: 85%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Logo_Partido_Democr%C3%A1tico_Somos_Per%C3%BA.svg" />
-      </div>
-      <div>
-        <input type="image" style="width: 85%; height: 85%;" src="" />
-      </div>
+      <div><input type="image" title="Partido Morado" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_Partido_Morado.png" /></div>
+      <div><input type="image" title="Juntos por el Perú" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Logo_juntos_por_el_Peru.svg/1920px-Logo_juntos_por_el_Peru.svg.png" /></div>
+      <div><input type="image" title="Acción Popular" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Acci%C3%B3n_Popular.png" /></div>
+      <div><input type="image" title="Alianza para el Progreso" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Alianza_para_el_Progreso_Peru.svg/1920px-Alianza_para_el_Progreso_Peru.svg.png" /></div>
+      <div><input type="image" title="Frente Amplio" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Logo-frente-amplio-Peru-alt.svg/1200px-Logo-frente-amplio-Peru-alt.svg.png" /></div>
+      <div><input type="image" title="Fuerza Popular" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Fuerza_popular.svg/1200px-Fuerza_popular.svg.png" /></div>
+      <div><input type="image" title="APRA" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/APRA_Peru_logo.svg/1200px-APRA_Peru_logo.svg.png" /></div>
+      <div><input type="image" title="Somos Perú" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Logo_Partido_Democr%C3%A1tico_Somos_Per%C3%BA.svg" /></div>
+      <div><input type="image" title="Podemos Perú" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/0/07/Logo_Podemos_Per%C3%BA.png" /></div>
+      <div><input type="image" title="Unión por el Perú" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logoupp1.png" /></div>
+      <div><input type="image" title="FREPAP" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/FREPAP_Logo.jpg" /></div>
+      <div><input type="image" title="Victoria Nacional" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Victoria_Nacional_logo.svg/1920px-Victoria_Nacional_logo.svg.png" /></div>
+      <div><input type="image" title="Perú Libre" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Per%C3%BA_Libre_logo.svg/1920px-Per%C3%BA_Libre_logo.svg.png" /></div>
+      <div><input type="image" title="Avanza País" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Avanza_Pa%C3%ADs_2021.jpg" /></div>
+      <div><input type="image" title="Renovación Popular" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Renovaci%C3%B3n_Popular_logo.svg/1280px-Renovaci%C3%B3n_Popular_logo.svg.png" /></div>
+      <div><input type="image" title="Partido Nacionalista" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Logo_-_Partido_Nacionalista_Peruano.svg/1920px-Logo_-_Partido_Nacionalista_Peruano.svg.png" /></div>
+      <div><input type="image" title="Partido Popular Cristiano" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Logo_Oficial_PPC.png" /></div>
+      <div><input type="image" title="Parú Nación" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Logo_Peru_nacion.svg/1920px-Logo_Peru_nacion.svg.png" /></div>
+      <div><input type="image" title="Patria Segura" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Logo_Peru_patria_segura.svg/1920px-Logo_Peru_patria_segura.svg.png" /></div>
+      <div><input type="image" title="RUNA" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/3/3e/RENACIMIENTO-UNIDO-NACIONAL.jpg" /></div>
+      <div><input type="image" title="Vamos Perú" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Logo_vamos_Peru.svg/1920px-Logo_vamos_Peru.svg.png" /></div>
+      <div><input type="image" title="Nuevo Perú" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Logo_nuevo_peru.svg/1920px-Logo_nuevo_peru.svg.png" /></div>
+      <div><input type="image" title="Partido" style="width: 80%; height: 85%;" src="" /></div>
+      <div><input type="image" title="Partido" style="width: 80%; height: 85%;" src="" /></div>
     </div>
   </div>
 
@@ -381,76 +542,12 @@ body, html {
     <img style="height: 70%" src="https://www.mapasparacolorear.com/peru/mapa-peru-distritos.png">
   </div>
 
-<div class="topnav">
-   <!-- <img src="static/ibm_logo_white.png" alt="IBM logo" width="90px" style="float:left;vertical-align:center;margin-top:7px">  -->
-   CONGRESO TRANSPARENTE
-</div>
-
-<div style="margin-left: 20px; margin-top: 10px; margin-right: 20px;">
-      <!-- <br> -->
-      <div >
-         <h5 align="center"> Algún texto aquí para describir lo que hace el sitio web? Alternativamente, algún tagline/motto.</h5>
-         <br>
-      </div>
-      <div>
-        <form action="/action_page.php">
-        <label for="congresista">Eligir congresista:</label>
-        <select name="cars" id="cars">
-          <option value=""></option>
-          <option value="marita_arevalo_herrera">Marito Arévalo Herrera</option>
-          <option value="miguel_antonio_castro_grandez">Miguel Antonio Castro Grandez</option>
-          <option value="opel">DOMINGUEZ	HERRERA	CARLOS ALBERTO</option>
-          <option value="audi">MELGAREJO	PAUCAR	MARIA CRISTINA</option>
-        </select>
-
-        <label for="partido">Eligir partido:</label>
-        <select name="cars" id="cars">
-          <option value="volvo">FUERZA POPULAR</option>
-          <option value="saab">ALIANZA PARA EL PROGRESO DEL PERU</option>
-          <option value="opel">EL FRENTE AMPLIO POR JUSTICIA, VIDA Y LIBERTAD</option>
-          <option value="audi">PERUANOS POR EL KAMBIO</option>
-        </select>
-
-        <label for="distrito">Eligir distrito electoral:</label>
-        <select name="cars" id="cars">
-          <option value="volvo">AMAZONAS</option>
-          <option value="saab">ANCASH</option>
-          <option value="opel">APURIMAC</option>
-          <option value="audi">AREQUIPA</option>
-        </select>
-
-        <input type="submit" value="Submit">
-      </form>
-      </div>
-      <div class="grid-container" style="padding: 10px">
-      <div>
-         <span style="vertical-align:top; color:rgb(70, 70, 70);font-size:120%;"><b>Text to be classified:</b></span>
-      </div>
-      <div class="">
-         <textarea placeholder="Enter text to be classified here" id="description" rows=10 cols=150></textarea>
-      </div>
-      <div style="padding-left: 20px">
-         <input class="btn btn-primary" value="Classify" onclick="run_model()" style="cursor: pointer;">
-         <br><br>
-         <input class="btn btn-primary" value="Get Keywords" onclick="get_keywords()" style="cursor: pointer;">
-      </div>
-      <div><span style="color:rgb(70, 70, 70); font-size:120%;"><b>Classification: </b></span></div>
-      <div class="" id="displayresults" style="font-size:120%;"> </div>
-      <div></div>
-      <div><span style="color:rgb(70, 70, 70); font-size:120%;"><b>Annotated Text: </b></span></div>
-      <div class="" id="displaykeywords" style="font-size:120%;"> </div>
-      <div></div>
+  <div id="Congresistas" class="tabcontent" style="padding-left=100px">
+    <h3>Congresistas</h3>
+    <p>Selecciona a un representante</p>
+  </div>
 
 
-      </div>
-
-      <br>
-      <br>
-<br>
-<!--
-      <input class="btn btn-primary" value="Download PDF of results" onclick="make_pdf_api()" style="cursor: pointer;">
--->
-<hr>
 
 
 <script>
@@ -466,7 +563,8 @@ function openPage(pageName,elmnt,color) {
     tablinks[i].style.backgroundColor = "";
   }
   document.getElementById(pageName).style.display = "block";
-  elmnt.style.backgroundColor = color;
+  elmnt.style.backgroundColor = color; elmnt.style.border = 'none';
+  elmnt.style.outline = 'none';
 }
 
 // Get the element with id="defaultOpen" and click on it
@@ -495,6 +593,88 @@ window.onclick = function(event) {
   }
 }
 
+
+
+var x, i, j, l, ll, selElmnt, a, b, c;
+/* Look for any elements with the class "custom-select": */
+x = document.getElementsByClassName("custom-select");
+l = x.length;
+for (i = 0; i < l; i++) {
+  selElmnt = x[i].getElementsByTagName("select")[0];
+  ll = selElmnt.length;
+  /* For each element, create a new DIV that will act as the selected item: */
+  a = document.createElement("DIV");
+  a.setAttribute("class", "select-selected");
+  a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+  x[i].appendChild(a);
+  /* For each element, create a new DIV that will contain the option list: */
+  b = document.createElement("DIV");
+  b.setAttribute("class", "select-items select-hide");
+  for (j = 1; j < ll; j++) {
+    /* For each option in the original select element,
+    create a new DIV that will act as an option item: */
+    c = document.createElement("DIV");
+    c.innerHTML = selElmnt.options[j].innerHTML;
+    c.addEventListener("click", function(e) {
+        /* When an item is clicked, update the original select box,
+        and the selected item: */
+        var y, i, k, s, h, sl, yl;
+        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+        sl = s.length;
+        h = this.parentNode.previousSibling;
+        for (i = 0; i < sl; i++) {
+          if (s.options[i].innerHTML == this.innerHTML) {
+            s.selectedIndex = i;
+            h.innerHTML = this.innerHTML;
+            y = this.parentNode.getElementsByClassName("same-as-selected");
+            yl = y.length;
+            for (k = 0; k < yl; k++) {
+              y[k].removeAttribute("class");
+            }
+            this.setAttribute("class", "same-as-selected");
+            break;
+          }
+        }
+        h.click();
+    });
+    b.appendChild(c);
+  }
+  x[i].appendChild(b);
+  a.addEventListener("click", function(e) {
+    /* When the select box is clicked, close any other select boxes,
+    and open/close the current select box: */
+    e.stopPropagation();
+    closeAllSelect(this);
+    this.nextSibling.classList.toggle("select-hide");
+    this.classList.toggle("select-arrow-active");
+  });
+}
+
+function closeAllSelect(elmnt) {
+  /* A function that will close all select boxes in the document,
+  except the current select box: */
+  var x, y, i, xl, yl, arrNo = [];
+  x = document.getElementsByClassName("select-items");
+  y = document.getElementsByClassName("select-selected");
+  xl = x.length;
+  yl = y.length;
+  for (i = 0; i < yl; i++) {
+    if (elmnt == y[i]) {
+      arrNo.push(i)
+    } else {
+      y[i].classList.remove("select-arrow-active");
+    }
+  }
+  for (i = 0; i < xl; i++) {
+    if (arrNo.indexOf(i)) {
+      x[i].classList.add("select-hide");
+    }
+  }
+}
+
+/* If the user clicks anywhere outside the select box,
+then close all select boxes: */
+document.addEventListener("click", closeAllSelect);
 
 </script>
 <br>
