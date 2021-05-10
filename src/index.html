@@ -145,17 +145,31 @@ textarea {
     box-sizing: border-box;
     width: 100%;
 }
+
+/* .blue-title {
+  background-color: blue;
+  color: white;
+} */
+
 .grid-container {
   display: grid;
   grid-template-columns: 20% 60% auto;
   padding-bottom: 15px;
 }
 
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 30% 5% 55%;
+  padding-bottom: 15px;
+  padding: 10px;
+}
+
 .grid-container2 {
   display: grid;
+  background-color: white;
   grid-template-columns: 47% 6% 47%;
   padding-bottom: 15px;
-  padding: 10px
+  padding: 10px;
 }
 
 .grid-container3 {
@@ -175,7 +189,7 @@ textarea {
 .grid-item {
   /* background-color: rgba(255, 255, 255, 0.8); */
   /* border: 1px solid rgba(0, 0, 0, 0.8); */
-  /* padding: 20px; */
+  padding: 20px;
   /* font-size: 30px; */
   text-align: center;
 }
@@ -222,8 +236,8 @@ body, html {
 #Inicio {background-color: white;}
 #Leyes {background-color: #008CBA;}
 #Partidos {background-color: #F4D03F;}
-#Comparar {background-color: orange;}
-#Congresistas {background-color: red;}
+#Explorar {background-color: orange;}
+#Congresistas {background-color: tomato;}
 /* #mapid { height: 180px; } */
 #hidden_div {
     display: none;
@@ -308,19 +322,19 @@ body, html {
 .button4 {
   background-color: white;
   color: black;
-  border: 2px solid red;
+  border: 2px solid tomato;
   outline: none;
 }
 .button4:hover {
-  background-color: red;
+  background-color: tomato;
   color: white;
-  border: 2px solid red;
+  border: 2px solid tomato;
   outline: none;
 }
 .button4:focus {
-  background-color: red;
+  background-color: tomato;
   color: white;
-  border: 2px solid red;
+  border: 2px solid tomato;
   outline: none;
 }
 
@@ -394,14 +408,14 @@ body, html {
 <body>
 
   <button class="tablink" onclick="openPage('Inicio', this, 'white')" id="defaultOpen">Inicio</button>
-  <button class="tablink" onclick="openPage('Leyes', this, '#008CBA')">Leyes</button>
   <button class="tablink" onclick="openPage('Partidos', this, '#F4D03F')">Partidos</button>
-  <button class="tablink" onclick="openPage('Comparar', this, 'orange')">Comparar</button>
-  <button class="tablink" onclick="openPage('Congresistas', this, 'red')">Congresistas</button>
+  <button class="tablink" onclick="openPage('Explorar', this, 'orange')">Explorar</button>
+  <button class="tablink" onclick="openPage('Leyes', this, '#008CBA')">Leyes</button>
+  <button class="tablink" onclick="openPage('Congresistas', this, 'tomato')">Congresistas</button>
 
   <div id="Inicio" class="tabcontent">
-    <div class="grid-container2" style="padding: 10px; padding-left: 10%">
-      <div style="justify-content: center;">
+    <div class="grid-container1">
+      <div class="grid-item">
         <h3 style="text-align: center;">Temas</h3>
         <br>
         <button class="button button1">Educación</button><br>
@@ -411,24 +425,24 @@ body, html {
         <button class="button button1">Más...</button><br>
       </div>
       <div></div>
-      <div style="padding: 50px">
+      <div class="grid-item">
         <h3>¿Qué es Congreso Transparente?</h3>
         <br>
-        Lorem ipsum dolor sit amet consectetur, adipiscing elit aliquet arcu porta fames.
-        Lorem ipsum dolor sit amet consectetur, adipiscing elit aliquet arcu porta fames.
-        Lorem ipsum dolor sit amet consectetur, adipiscing elit aliquet arcu porta fames.
-        Lorem ipsum dolor sit amet consectetur, adipiscing elit aliquet arcu porta fames.
+        En los últimos años hemos vivido una coyuntura de fraccionamiento político a la par de la falta de información sobre nuestros representantes en esta esfera. La política es poco transparente y en el momento de la votación, es difícil que un ciudadano típico esté al tanto del historial de los candidatos y de los partidos políticos. La meta de esta iniciativa es que los ciudadanos se informen más sobre el historial tanto de sus representantes como de los procesos legislativos, para así tomar mejores decisiones al votar y mover hacia una política más responsable y estable en el país. Salvo que se indique lo contrario, los datos en esta prueba de concepto son referenciales.
+
         <br><br>
-        <button class="button button2">Conoce más</button><br>
+        <a href="https://github.com/jordanjasuta/CongresoTransparente"><button class="button button2">Conoce más</button></a><br>
         <button class="button button3">Metodología</button>
       </div>
     </div>
   </div>
 
   <div id="Leyes" class="tabcontent">
-    <h3>¿Cómo funciona la ley en el Perú?</h3>
-    <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit aliquet arcu porta. Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur, adipiscing elit aliquet arcu porta fames adipiscing elit aliquet arcu porta fames.
-    Lorem ipsum dolor sit amet consectetur, adipiscing elit aliquet arcu porta fames.</p><br>
+    <h3>¿Cómo funciona la ley en el Perú?</h3><br><br>
+    <p>La Constitución Política del Perú señala varios caminos para llegar a la formulación y promulgación de las leyes. Tienen derecho de iniciativa, el Presidente de la República y los congresistas, así como los otros poderes del Estado, las instituciones públicas autónomas, los municipios y los colegios profesionales. Los ciudadanos, ejerciendo el derecho de iniciativa previsto en la Constitución, también pueden proponer proyectos de ley.</p>
+    <p style="font-size:12px; text-align:right; padding-right: 100px">Información proveida por el <a href="https://www4.congreso.gob.pe/tutor/ciclo/legislativo.htm">Congreso del Perú</a>.</p>
+    <br><br>
+    Buscar leyes por tema, año, y/o el partido que propuso la ley.<br><br>
     <div>
       <form action="/action_page.php">
         <div class="grid-container3">
@@ -454,7 +468,7 @@ body, html {
           <div class="custom-select" style="height:50px; width:70%;">
             <!-- <input type="date" id="fecha" name="fecha"> -->
             <select>
-              <option value="0">Eligir ley por fecha:</option>
+              <option value="0">Eligir ley por año:</option>
               <option value="1">2021</option>
               <option value="2">2020</option>
               <option value="3">2019</option>
@@ -506,10 +520,10 @@ body, html {
           </div>
           <div></div>
           <div>
-            <br><br>
+            <!-- <br><br>
             <input type="checkbox" id="PL" name="PL" value="PL">
             <label for="PL">Incluir propuestas de ley</label>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit"> -->
           </div>
 
           </form>
@@ -525,7 +539,7 @@ body, html {
     <br>
     <div class="grid-container-partidos" style="padding: 10px;">
       <div><input type="image" title="Partido Morado" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_Partido_Morado.png" /></div>
-      <div><input type="image" title="Juntos por el Perú" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Logo_juntos_por_el_Peru.svg/1920px-Logo_juntos_por_el_Peru.svg.png" /></div>
+      <div><a href="http://www.juntosporelperu.org/" target="_blank"><input type="image" title="Juntos por el Perú" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Logo_juntos_por_el_Peru.svg/1920px-Logo_juntos_por_el_Peru.svg.png" /></a></div>
       <div><input type="image" title="Acción Popular" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Acci%C3%B3n_Popular.png" /></div>
       <div><input type="image" title="Alianza para el Progreso" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Alianza_para_el_Progreso_Peru.svg/1920px-Alianza_para_el_Progreso_Peru.svg.png" /></div>
       <div><input type="image" title="Frente Amplio" style="width: 80%; height: 85%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Logo-frente-amplio-Peru-alt.svg/1200px-Logo-frente-amplio-Peru-alt.svg.png" /></div>
@@ -551,95 +565,39 @@ body, html {
     </div>
   </div>
 
-  <div id="Comparar" class="tabcontent" style="padding-left=100px">
-    <h3>Comparar partidos</h3>
-    <p>Seleccionar un tema y hasta dos partidos para explorar su historial de votos</p>
+  <div id="Explorar" class="tabcontent" style="padding-left=100px">
+    <h3>Explorar historial legislativo</h3><br>
+    <!-- <p>Seleccionar un tema y hasta dos partidos para explorar su historial de votos</p> -->
+    <!-- <div id="myDiv"></div><br><br> -->
     <!-- <img style="height: 70%" src="https://www.mapasparacolorear.com/peru/mapa-peru-distritos.png"> -->
     <div class="grid-container2" style="padding: 10px">
-      <div class="grid-item">
-        <select id="test" name="form_select" onchange="showDiv('hidden_div', this)">
-          <option value="0">Eligir un partido:</option>
-          <option value="1">Acción Popular</option>
-          <option value="2">Alianza para el Progreso</option>
-          <option value="3">Avanza País - Partido de Integración Social</option>
-          <option value="4">Democracia Directa</option>
-          <option value="5">El Frente Amplio por Justicia, Vida y Libertad</option>
-          <option value="6">Frente Popular Agrícola del Perú - FREPAP</option>
-          <option value="7">Fuerza Popular</option>
-          <option value="8">Juntos por el Perú</option>
-          <option value="9">Nuevo Perú, por Democracia, Soberanía y Justicia</option>
-          <option value="10">Partido Aprista Peruano</option>
-          <option value="11">Partido Democrático Perú Unido</option>
-          <option value="12">Partido Democrático Somos Perú</option>
-          <option value="13">Partido Frente de la Esperanza 2021</option>
-          <option value="14">Partido Morado</option>
-          <option value="15">Partido Nacionalista Peruano</option>
-          <option value="16">Partido Patriótico del Perú</option>
-          <option value="17">Partido Político Contigo</option>
-          <option value="18">Partido Político Nacional Perú Libre</option>
-          <option value="19">Partido Popular Cristiano - PPC</option>
-          <option value="20">Perú Libre</option>
-          <option value="21">Perú Nación</option>
-          <option value="22">Perú Patria Segura</option>
-          <option value="23">Podemos Perú</option>
-          <option value="24">Renacimiento Unido Nacional</option>
-          <option value="25">Renovación Popular</option>
-          <option value="26">Representados en el Parlamento</option>
-          <option value="27">Todos por el Perú</option>
-          <option value="28">Unión por el Perú</option>
-          <option value="29">Vamos Perú</option>
-          <option value="30">Victoria Nacional</option>
+      <div class="grid-item">Seleccionar un tema y hasta dos partidos para explorar su historial legislativo:  </div>
+      <div></div>
+      <div><br>
+        <select id="test" name="form_select" onchange="showDiv('hidden_div', 'hidden_div2', this)">
+          <option value="0">Eligir un tema:</option>
+          <option value="1">Salud pública: COVID-19</option>
+          <option value="2">Salud pública: general</option>
+          <option value="3">Educación</option>
+          <option value="4">Medioambiente</option>
+          <option value="5">Derechos laborales</option>
         </select><br><br>
-        <div id="hidden_div"></div>
-        <!-- </div> -->
       </div>
+      <!-- <div class="grid-item">4. </div> -->
+      <div id="hidden_div"></div>
       <div class="grid-item"></div>
-      <div class="grid-item">
-        <!-- <div class="custom-select" style="height:50px; width:70%;"> -->
-        <div>
-          <select id="test" name="form_select" onchange="showDiv2('hidden_div2', this)">
-            <option value="0">Eligir un partido:</option>
-            <option value="1">Acción Popular</option>
-            <option value="2">Alianza para el Progreso</option>
-            <option value="3">Avanza País - Partido de Integración Social</option>
-            <option value="4">Democracia Directa</option>
-            <option value="5">El Frente Amplio por Justicia, Vida y Libertad</option>
-            <option value="6">Frente Popular Agrícola del Perú - FREPAP</option>
-            <option value="7">Fuerza Popular</option>
-            <option value="8">Juntos por el Perú</option>
-            <option value="9">Nuevo Perú, por Democracia, Soberanía y Justicia</option>
-            <option value="10">Partido Aprista Peruano</option>
-            <option value="11">Partido Democrático Perú Unido</option>
-            <option value="12">Partido Democrático Somos Perú</option>
-            <option value="13">Partido Frente de la Esperanza 2021</option>
-            <option value="14">Partido Morado</option>
-            <option value="15">Partido Nacionalista Peruano</option>
-            <option value="16">Partido Patriótico del Perú</option>
-            <option value="17">Partido Político Contigo</option>
-            <option value="18">Partido Político Nacional Perú Libre</option>
-            <option value="19">Partido Popular Cristiano - PPC</option>
-            <option value="20">Perú Libre</option>
-            <option value="21">Perú Nación</option>
-            <option value="22">Perú Patria Segura</option>
-            <option value="23">Podemos Perú</option>
-            <option value="24">Renacimiento Unido Nacional</option>
-            <option value="25">Renovación Popular</option>
-            <option value="26">Representados en el Parlamento</option>
-            <option value="27">Todos por el Perú</option>
-            <option value="28">Unión por el Perú</option>
-            <option value="29">Vamos Perú</option>
-            <option value="30">Victoria Nacional</option>
-          </select><br><br>
-          <div id="hidden_div2"></div>
-        </div>
-      </div>
+      <div id="hidden_div2"></div>
 
     </div>
   </div>
 
   <div id="Congresistas" class="tabcontent" style="padding-left=100px">
     <h3>Congresistas</h3>
-    <p>Selecciona a un representante</p>
+    <p>Buscar a un representante</p>
+    <div id="search-div">
+      <!-- <input type="text" id="background-input" /> -->
+      <input type="text" id="search" placeholder="Buscar..." />
+    </div>
   </div>
 
 
@@ -773,36 +731,146 @@ document.addEventListener("click", closeAllSelect);
 
 
 
-function showDiv(divId, element)
+function showDiv(divId1, divId2, element)
 {
-    document.getElementById(divId).style.display = element.value == 20 ? 'block' : 'none';
+    document.getElementById(divId1).style.display = element.value == 1 ? 'block' : 'none';
+    document.getElementById(divId2).style.display = element.value == 1 ? 'block' : 'none';
 }
-function showDiv2(divId, element)
-{
-    document.getElementById(divId).style.display = element.value == 7 ? 'block' : 'none';
+// function showDiv2(divId, element)
+// {
+//     document.getElementById(divId).style.display = element.value == 1 ? 'block' : 'none';
+// }
+
+
+function makeTrace(i) {
+    return {
+        y: Array.apply(null, Array(10)).map(() => Math.random()),
+        bar: {
+            shape: 'spline' ,
+            color: 'tomato'
+        },
+        visible: i === 0,
+        name: 'Data set ' + i,
+    };
 }
 
-var data = [
-  {
-    x: ['votos para regular', 'votos para deregular', 'proyectos de ley', 'leyes'],
-    y: [11, 14, 2, 0],
-    type: 'bar'
-  }
-];
 
-// Plotly.newPlot('myDiv', data);
-Plotly.newPlot('hidden_div', data);
+// var trace0 = {
+//   x: [0, 0, 0, 0],
+//   y: [0, 0, 0, 0],
+//   type: 'bar',
+//   visible: false
+// };
+var Peru_Libre = {
+  x: ['votos para regular', 'votos para deregular', 'proyectos de ley', 'leyes'],
+  y: [0, 0, 0, 0],
+  // name: 'Name of Trace 1',
+  type: 'bar',
+  visible: false
+};
+var Fuerza_Popular = {
+  x: ['votos para regular', 'votos para deregular', 'proyectos de ley', 'leyes'],
+  y: [119, 214, 39, 22],
+  // name: 'Name of Trace 2',
+  type: 'bar',
+  visible: false
+};
+
+var data = [Fuerza_Popular,Peru_Libre];
+
+var layout = {
+  // title: {
+  //   text:'             Partido 1',
+  //   font: {
+  //     family: 'Courier New, monospace',
+  //     size: 20
+  //   },
+  //   xref: 'paper',
+  //   x: 0.05,
+  // },
+    colorway : ['#008CBA'],
+    updatemenus: [{
+        y: 1.2,
+        x: .5,
+        yanchor: 'top',
+        xanchor: 'center',
+        buttons: [{
+            method: 'restyle',
+            args: ['visible', [false, false, false, false]],
+            label: 'Eligir un partido'
+        }, {
+            method: 'restyle',
+            args: ['visible', [false, false, false, false]],
+            label: 'Alianza para el Progreso'
+        }, {
+            method: 'restyle',
+            args: ['visible', [false, false, false, false]],
+            label: 'Avanza País'
+        }, {
+            method: 'restyle',
+            args: ['visible', [false, false, false, false]],
+            label: 'Frente Amplio'
+        }, {
+            method: 'restyle',
+            args: ['visible', [true, false, false, false]],
+            label: 'Fuerza Popular'
+        }, {
+            method: 'restyle',
+            args: ['visible', [false, false, false, true]],
+            label: 'Juntos por el Perú'
+        }, {
+            method: 'restyle',
+            args: ['visible', [false, false, false, true]],
+            label: 'Partido Morado'
+        }, {
+            method: 'restyle',
+            args: ['visible', [false, false, false, true]],
+            label: 'Partido Popular Cristiano'
+        }, {
+            method: 'restyle',
+            args: ['visible', [false, true, false, true]],
+            label: 'Perú Libre'
+        }, {
+            method: 'restyle',
+            args: ['visible', [false, false, false, true]],
+            label: 'Podemos Perú'
+        }, {
+            method: 'restyle',
+            args: ['visible', [false, false, false, true]],
+            label: 'Vamos Perú'
+        }]
+    }],
+}
+
+Plotly.newPlot('hidden_div', data, layout);
+
+Plotly.newPlot('hidden_div2', data, layout);
 
 
-var data = [
-  {
-    x: ['votos para regular', 'votos para deregular', 'proyectos de ley', 'leyes'],
-    y: [15, 20, 23, 2],
-    type: 'bar'
-  }
-];
 
-Plotly.newPlot('hidden_div2', data);
+
+// var data = [
+//   {
+//     x: ['votos para regular', 'votos para deregular', 'proyectos de ley', 'leyes'],
+//     y: [11, 14, 2, 0],
+//     type: 'bar'
+//   }
+// ];
+//
+// Plotly.newPlot('hidden_div', data);
+
+
+// var data = [
+//   {
+//     x: ['votos para regular', 'votos para deregular', 'proyectos de ley', 'leyes'],
+//     y: [15, 20, 23, 2],
+//     type: 'bar'
+//   }
+// ];
+//
+// Plotly.newPlot('hidden_div2', data);
+//
+
 
 </script>
 <br>
